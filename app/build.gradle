@@ -5,6 +5,7 @@ android {
     buildToolsVersion "26.0.1"
     packagingOptions {
         exclude 'META-INF/mapboxlibrary_release.kotlin_module'
+        exclude 'model-distance-calculations.json'
     }
     defaultConfig {
         applicationId "com.org.mapboxmap"
@@ -22,7 +23,7 @@ android {
     }
     repositories {
         flatDir {
-            dirs '../mylibrary/libs'
+            dirs '../mylibrary/libs','libs'
         }
     }
 }
@@ -37,5 +38,23 @@ dependencies {
     testCompile 'junit:junit:4.12'
     //compile(name:'mapboxlibrary-release', ext:'aar')
     //compile project(path: ':mapboxlibrary')
-    compile project(path: ':mylibrary')
+    //compile project(path: ':mylibrary')
+    compile(name:'lib-astar-release', ext:'aar')
+    compile(name:'mapboxlibrary-release', ext:'aar')
+    compile(name:'mylibrary-release', ext:'aar')
+    //compile project(':mapboxlibrary')
+    compile files('libs/nagrand-jar-with-dependencies.jar')
+    //compile project(':lib-astar')
+    compile 'io.reactivex.rxjava2:rxjava:2.1.5'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'org.altbeacon:android-beacon-library:2.9.2'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+
+    compile('com.mapbox.mapboxsdk:mapbox-android-sdk:5.1.0@aar') {
+        transitive = true
+        exclude 'group': 'com.android.support'
+        exclude 'group': 'okhttp3'
+    }
+    compile 'com.mapbox.mapboxsdk:mapbox-android-navigation:0.3.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
 }
