@@ -3,6 +3,7 @@ package com.org.mylibrary.yichemap.view;
 import com.mapbox.mapboxsdk.camera.CameraPosition;
 import com.mapbox.mapboxsdk.geometry.LatLng;
 import com.mapbox.services.commons.geojson.FeatureCollection;
+import com.org.mylibrary.yichemap.mode.LocationInfo;
 
 /**
  * Created by Administrator on 2017/10/10/010.
@@ -18,7 +19,7 @@ public interface FindCarNativeView {
     void changeCarParkingNum(int carNum, int noCarNum);
 
     //展示定位图标
-    void showLocationIcon(double var1, double var2, double var3, double var4);
+    void showLocationIcon(LocationInfo locationInfo);
 
     //更新地图状态
     void updateMapCamera(CameraPosition position);

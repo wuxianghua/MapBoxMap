@@ -36,6 +36,7 @@ import com.org.mylibrary.indoor.Utils;
 import com.org.mylibrary.indoor.impl.MapBoxMapViewController;
 import com.org.mylibrary.indoor.navigate.INavigateManager;
 import com.org.mylibrary.indoor.navigate.impl.MapBoxNavigateManager;
+import com.org.mylibrary.yichemap.mode.LocationInfo;
 import com.org.mylibrary.yichemap.presenter.FindCarNativePresenter;
 import com.org.mylibrary.yichemap.presenter.FindCarNativePresenterImpl;
 import com.org.mylibrary.yichemap.utils.SharedPreferenceUtil;
@@ -513,10 +514,31 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
         });
     }
 
-    Bundle bundle;
     @Override
+    public void showLocationIcon(LocationInfo locationInfo) {
+        if (isCanShowLocationIcon) {
+            mLocation.setX(locationInfo.x);
+            mLocation.setY(locationInfo.y);
+            mLocationLatLng.setLatitude(locationInfo.latitude);
+            mLocationLatLng.setLongitude(locationInfo.logtitude);
+            Message message = Message.obtain();
+            message.what = 2;
+            if (bundle == null) {
+                bundle = new Bundle();
+            }
+            bundle.putParcelable("mLocationLatLng",mLocationLatLng);
+            message.setData(bundle);
+            handler.sendMessage(message);
+            if (isShown == false) {
+                isShown = true;
+            }
+        }
+    }
+
+    Bundle bundle;
+    /*@Override
     public void showLocationIcon(double var1, double var2, double var3, double var4) {
-        if (true) {
+        if (isCanShowLocationIcon) {
             mLocation.setX(var3);
             mLocation.setY(var4);
             mLocationLatLng.setLatitude(var1);
@@ -534,7 +556,7 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
             }
         }
     }
-
+*/
     @Override
     public void updateMapCamera(final CameraPosition position) {
         Message message = Message.obtain();
@@ -691,7 +713,7 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
     //定位
     public void location(View view) {
         Log.e(TAG,"我被点击了");
-        ((MapBoxMapViewController) iMapViewController).getMapBox().animateCamera(CameraUpdateFactory.newLatLng(selectMainParkingPos("B025")),2000);
+        ((MapBoxMapViewController) iMapViewController).getMapBox().animateCamera(CameraUpdateFactory.newLatLng(locationLatLng),2000);
         mFindCarNativePresenter.getLocation();
     }
 
