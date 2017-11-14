@@ -121,7 +121,7 @@ public class FindCarNativePresenterImpl implements FindCarNativePresenter{
     @Override
     public void onCreate() {
         initData();
-        if (mGetCarParkingInfoService == null) {
+        /*if (mGetCarParkingInfoService == null) {
             mGetCarParkingInfoService = CarServiceFactory.getInstance().createService(GetCarParkingInfoService.class);
         }
         Observable.interval(2000,60000, TimeUnit.MILLISECONDS).subscribe(new Consumer<Long>() {
@@ -148,7 +148,7 @@ public class FindCarNativePresenterImpl implements FindCarNativePresenter{
                     }
                 });
             }
-        });
+        });*/
         getLocation();
     }
     //初始化数据

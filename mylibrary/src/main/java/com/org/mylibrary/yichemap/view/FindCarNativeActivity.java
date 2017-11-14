@@ -291,8 +291,8 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
         if (routeFeatureCollection != null) {
             ((MapBoxMapViewController) iMapViewController).showRoute(null);
         }
-        findCar.setVisibility(View.VISIBLE);
-        stopCar.setVisibility(View.VISIBLE);
+        //findCar.setVisibility(View.VISIBLE);
+        //stopCar.setVisibility(View.VISIBLE);
     }
 
     //停车
@@ -349,8 +349,8 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
             }else {
                 findCarBack.setVisibility(View.VISIBLE);
                 findCarEnsure.setVisibility(View.VISIBLE);
-                showCarInfo.setVisibility(View.VISIBLE);
-                showCarName.setText(carNum);
+                //showCarInfo.setVisibility(View.VISIBLE);
+                //showCarName.setText(carNum);
                 mFindCarNativePresenter.showSearchPark(featureCentroid);
                 endMark = ((MapBoxMapViewController) iMapViewController).getMapBox().addMarker(new PulseMarkerViewOptions()
                         .position(featureCentroid)
@@ -396,22 +396,22 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
             }else {
                 feature = iMapViewController.selectFeature(x, y);
                 if (feature == null) return;
-                category = feature.getNumberProperty("category").intValue();
-                if(category == 22001000||category == 22002000||category == 22003000||category ==22004000) {
-                    poiId = feature.getNumberProperty("id").intValue();
+                /*category = feature.getNumberProperty("category").intValue();
+                if(category == 22001000||category == 22002000||category == 22003000||category ==22004000) {*/
+                    /*poiId = feature.getNumberProperty("id").intValue();
                     if (!mFindCarNativePresenter.canParkCar(poiId)) {
                         Toast.makeText(FindCarNativeActivity.this,"请点击绿色车位",Toast.LENGTH_SHORT).show();
                         return;
-                    }
+                    }*/
                     if (endMark != null) {
                         ((MapBoxMapViewController) iMapViewController).getMapBox().removeMarker(endMark);
                     }
                     parkCarBack.setVisibility(View.GONE);
                     findCar.setVisibility(View.GONE);
                     stopCar.setVisibility(View.GONE);
-                    showCarInfo.setVisibility(View.VISIBLE);
-                    carName = feature.getProperties().get("name").getAsString();
-                    showCarName.setText(carName);
+                    //showCarInfo.setVisibility(View.VISIBLE);
+                    //carName = feature.getProperties().get("name").getAsString();
+                    //showCarName.setText(carName);
                     findCarBack.setVisibility(View.VISIBLE);
                     findCarEnsure.setVisibility(View.VISIBLE);
                     double xy2[] = DataConvertUtils.INSTANCE.latlng2WebMercator(x, y);
@@ -422,7 +422,7 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
                             .icon(IconFactory.getInstance(FindCarNativeActivity.this).fromResource(R.mipmap.parkcaricon))
                     );
                 }
-            }
+           /* }*/
             }
         });
     }
@@ -627,9 +627,9 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
         if(stopCar.getVisibility() == View.VISIBLE) {
             stopCar.setVisibility(View.GONE);
         }
-        if (showCarInfo.getVisibility() == View.GONE) {
+        /*if (showCarInfo.getVisibility() == View.GONE) {
             showCarInfo.setVisibility(View.VISIBLE);
-        }
+        }*/
         if (findCarBack.getVisibility() == View.GONE) {
             findCarBack.setVisibility(View.VISIBLE);
         }
@@ -657,8 +657,8 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
         showCarInfo.setVisibility(View.GONE);
         findCarBack.setVisibility(View.GONE);
         findCarEnsure.setVisibility(View.GONE);
-        findCar.setVisibility(View.VISIBLE);
-        stopCar.setVisibility(View.VISIBLE);
+        //findCar.setVisibility(View.VISIBLE);
+        //stopCar.setVisibility(View.VISIBLE);
         setStartNormal.setVisibility(View.GONE);
         setStartSelect.setVisibility(View.GONE);
         isHaveSetEnd = false;
@@ -691,8 +691,8 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
         }
         mShowNaviInfo.setVisibility(View.GONE);
         ((MapBoxMapViewController) iMapViewController).showRoute(null);
-        findCar.setVisibility(View.VISIBLE);
-        stopCar.setVisibility(View.VISIBLE);
+        //findCar.setVisibility(View.VISIBLE);
+        //stopCar.setVisibility(View.VISIBLE);
     }
     //定位
     public void location(View view) {
@@ -781,8 +781,8 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
                 ((MapBoxMapViewController) iMapViewController).getMapBox().animateCamera(CameraUpdateFactory.newCameraPosition(position));
                 ((MapBoxMapViewController) iMapViewController).showRoute(null);
             }else if (msg.what == 5) {
-                findCar.setVisibility(View.VISIBLE);
-                stopCar.setVisibility(View.VISIBLE);
+                //findCar.setVisibility(View.VISIBLE);
+                //stopCar.setVisibility(View.VISIBLE);
                 mShowNaviInfo.setVisibility(View.GONE);
                 if (endMark != null) {
                     ((MapBoxMapViewController) iMapViewController).getMapBox().removeMarker(endMark);

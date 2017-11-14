@@ -17,6 +17,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
         <LinearLayout
+            android:visibility="gone"
             android:id="@+id/show_car_number_info"
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -182,6 +183,7 @@
 
         </com.org.mylibrary.yichemap.widget.ShadowLayout>
         <LinearLayout
+            android:visibility="gone"
             android:id="@+id/stop_car"
             android:layout_width="72dp"
             android:layout_height="72dp"
@@ -205,6 +207,7 @@
                 android:text="停车"/>
         </LinearLayout>
         <LinearLayout
+            android:visibility="gone"
             android:id="@+id/find_car"
             android:layout_width="72dp"
             android:layout_height="72dp"
