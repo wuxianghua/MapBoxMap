@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.ViewGroup;
+
 import com.mapbox.mapboxsdk.geometry.LatLng;
 import com.mapbox.mapboxsdk.maps.MapboxMap;
 import com.mapbox.mapboxsdk.style.layers.Layer;
@@ -82,6 +83,7 @@ public class MapBoxMapViewController implements IMapViewController {
 
     @Override
     public Feature selectFeature(String name,PlanarGraph planarGraph) {
+        if (planarGraph == null || planarGraph.getDataMap() == null || planarGraph.getDataMap().get("Area") == null) return null;
         for (Feature feature : planarGraph.getDataMap().get("Area").getFeatures()) {
             if(feature.getProperties() == null|| feature.getProperties().get("name")==null) continue;
             if (name.equals(feature.getProperties().get("name").getAsString())) {

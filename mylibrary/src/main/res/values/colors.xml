@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_toast_title">#0a0a0a</color>
+    <color name="color_475266">#475266</color>
+    <color name="hint_color_2">#979797</color>
+    <color name="text_t3">#5d5d5d</color>
+    <color name="name_color">#565c60</color>
+    <color name="color_38bc7c">#38bc7c</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_ef6c60">#ef6c60</color>
+    <color name="white">#ffffff</color>
+    <color name="color_219acf">#219acf</color>
+    <color name="ngr_separate_line">#98c4c6cc</color>
+</resources>

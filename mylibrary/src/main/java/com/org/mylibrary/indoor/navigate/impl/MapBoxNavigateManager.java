@@ -3,7 +3,9 @@ package com.org.mylibrary.indoor.navigate.impl;
 import android.content.Context;
 import android.os.Handler;
 import android.os.HandlerThread;
+import android.util.Log;
 
+import com.mapbox.mapboxsdk.geometry.LatLng;
 import com.mapbox.services.commons.geojson.Feature;
 import com.mapbox.services.commons.geojson.FeatureCollection;
 import com.mapbox.services.commons.geojson.LineString;

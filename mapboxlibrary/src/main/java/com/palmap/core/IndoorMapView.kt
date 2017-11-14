@@ -306,7 +306,7 @@ class IndoorMapView private constructor(
             floorId = planarGraph.floorId
             val position = CameraPosition.Builder()
                     .target(planarGraph.mapCenter)
-                    .zoom(16.0)
+                    .zoom(17.0)
                     .bearing(0.0) // Rotate the camera
                     .build()
             mapBoxMap.animateCamera(CameraUpdateFactory.newCameraPosition(position))

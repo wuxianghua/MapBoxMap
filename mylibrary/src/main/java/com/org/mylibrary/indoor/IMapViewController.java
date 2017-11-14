@@ -17,10 +17,10 @@ public interface IMapViewController {
     }
 
     static interface onSingTapListener{
-        void onAction(double x, double y);
+        void onAction(double x,double y);
     }
 
-    void attachMap(ViewGroup root, Bundle savedInstanceState, Action action);
+    void attachMap(ViewGroup root, Bundle savedInstanceState,Action action);
 
     long getFloorId();
 
@@ -38,9 +38,9 @@ public interface IMapViewController {
 
     void addOverLayer(OverLayer overLayer);
 
-    void setLocationMarkIcon(int resource, int width, int height);
+    void setLocationMarkIcon(int resource,int width,int height);
 
-    void addLocationMark(double x, double y);
+    void addLocationMark(double x,double y);
 
     void onStart();
 

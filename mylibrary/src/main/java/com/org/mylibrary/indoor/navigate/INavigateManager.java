@@ -1,5 +1,6 @@
 package com.org.mylibrary.indoor.navigate;
 
+import com.palmap.astar.navi.AStar;
 import com.palmap.astar.navi.AStarPath;
 import com.vividsolutions.jts.geom.Coordinate;
 
@@ -39,7 +40,7 @@ public interface INavigateManager<Route> {
     }
 
     interface Listener<T>{
-        void OnNavigateComplete(NavigateState state, List<AStarPath> routes, T route);
+        void OnNavigateComplete(NavigateState state,List<AStarPath> routes,T route);
     }
 
     void setNavigateListener(Listener<Route> listener);

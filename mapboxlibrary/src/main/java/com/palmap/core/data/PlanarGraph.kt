@@ -9,13 +9,14 @@ import com.mapbox.services.commons.geojson.Polygon
 import com.palmap.core.style.FeatureRenderer
 import com.palmap.core.style.UniqueFeatureRenderer
 import org.json.JSONObject
+import java.io.Serializable
 import java.util.concurrent.atomic.AtomicBoolean
 
 /**
  * Created by wtm on 2017/9/7.
  * 地图渲染数据
  */
-class PlanarGraph(private val mapData: String,val zoomLevel : Double = 16.0) {
+class PlanarGraph(private val mapData: String,val zoomLevel : Double = 16.0){
 
     val dataMap: LinkedHashMap<String, FeatureCollection> = LinkedHashMap()
 
@@ -25,11 +26,10 @@ class PlanarGraph(private val mapData: String,val zoomLevel : Double = 16.0) {
     var floorId: Long = 0
         private set
 
-    var mapCenter: LatLng = LatLng(22.64314843987482, 114.06082880782026)
-
+    var mapCenter: LatLng = LatLng(30.497655298363053,114.39051727289446)
     val AUSTRALIA_BOUNDS = LatLngBounds.Builder()
-            .include(LatLng(22.64314843987482 - 0.0015, 114.06082880782026 + 0.002))
-            .include(LatLng(22.64314843987482 + 0.0025, 114.06082880782026 - 0.002))
+            .include(LatLng(30.497655298363053 - 0.0015, 114.39051727289446 + 0.002))
+            .include(LatLng(30.497655298363053 + 0.0025, 114.39051727289446 - 0.002))
             .build()
 
     private var isResolve:AtomicBoolean = AtomicBoolean(false)
@@ -61,7 +61,7 @@ class PlanarGraph(private val mapData: String,val zoomLevel : Double = 16.0) {
                         val feature = featureCollection.features[0]
                         floorId = feature.properties["planar_graph"].asLong
                         val position = (feature.geometry as Polygon).coordinates[0][0]
-                        mapCenter = LatLng(22.64384843987482, 114.06052880782026)
+                        mapCenter = LatLng(30.497655298363053,114.39051727289446)
                     }
                 } catch (e: Exception) {
                     e.printStackTrace()

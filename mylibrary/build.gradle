@@ -3,7 +3,10 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 26
     buildToolsVersion "26.0.1"
-
+    sourceSets.main.jniLibs.srcDirs = ['libs']
+    packagingOptions {
+        exclude 'model-distance-calculations.json'
+    }
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 26
@@ -39,4 +42,7 @@ dependencies {
     compile project(':mapboxlibrary')
     compile files('libs/nagrand-jar-with-dependencies.jar')
     compile project(':lib-astar')
+    compile 'io.reactivex.rxjava2:rxjava:2.1.5'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'org.altbeacon:android-beacon-library:2.9.2'
 }
