@@ -25,11 +25,10 @@ class PlanarGraph(private val mapData: String,val zoomLevel : Double = 16.0){
 
     var floorId: Long = 0
         private set
-
-    var mapCenter: LatLng = LatLng(30.497655298363053,114.39051727289446)
+    var mapCenter: LatLng = LatLng(31.23912895960803,121.4965994993567)
     val AUSTRALIA_BOUNDS = LatLngBounds.Builder()
-            .include(LatLng(30.497655298363053 - 0.0015, 114.39051727289446 + 0.002))
-            .include(LatLng(30.497655298363053 + 0.0025, 114.39051727289446 - 0.002))
+            .include(LatLng(31.23912895960803 - 0.0015, 121.4965994993567 + 0.002))
+            .include(LatLng(31.23912895960803 + 0.0025, 121.4965994993567 - 0.002))
             .build()
 
     private var isResolve:AtomicBoolean = AtomicBoolean(false)
@@ -61,7 +60,7 @@ class PlanarGraph(private val mapData: String,val zoomLevel : Double = 16.0){
                         val feature = featureCollection.features[0]
                         floorId = feature.properties["planar_graph"].asLong
                         val position = (feature.geometry as Polygon).coordinates[0][0]
-                        mapCenter = LatLng(30.497655298363053,114.39051727289446)
+                        mapCenter = LatLng(31.23912895960803,121.4965994993567)
                     }
                 } catch (e: Exception) {
                     e.printStackTrace()
