@@ -1,1 +1,1335 @@
-{"carportInfos":[{"carport":"B336","occupied":1,"poiId":2733578},{"carport":"B338","occupied":1,"poiId":2733579},{"carport":"B337","occupied":1,"poiId":2733580},{"carport":"B218","occupied":1,"poiId":2733581},{"carport":"B217","occupied":1,"poiId":2733582},{"carport":"B011","occupied":1,"poiId":2733583},{"carport":"B009","occupied":1,"poiId":2733584},{"carport":"B010","occupied":1,"poiId":2733585},{"carport":"B801","occupied":1,"poiId":2733586},{"carport":"B039","occupied":1,"poiId":2733587},{"carport":"B037","occupied":1,"poiId":2733588},{"carport":"B038","occupied":1,"poiId":2733589},{"carport":"B873","occupied":1,"poiId":2733590},{"carport":"B871","occupied":1,"poiId":2733591},{"carport":"B872","occupied":1,"poiId":2733592},{"carport":"B257","occupied":1,"poiId":2733593},{"carport":"B256","occupied":1,"poiId":2733594},{"carport":"B351","occupied":1,"poiId":2733595},{"carport":"B339","occupied":1,"poiId":2733596},{"carport":"B350","occupied":1,"poiId":2733597},{"carport":"B330","occupied":1,"poiId":2733598},{"carport":"B332","occupied":1,"poiId":2733599},{"carport":"B331","occupied":1,"poiId":2733600},{"carport":"B358","occupied":1,"poiId":2733601},{"carport":"B356","occupied":1,"poiId":2733602},{"carport":"B357","occupied":1,"poiId":2733603},{"carport":"B333","occupied":1,"poiId":2733604},{"carport":"B335","occupied":1,"poiId":2733605},{"carport":"B355","occupied":1,"poiId":2733606},{"carport":"B352","occupied":1,"poiId":2733607},{"carport":"B353","occupied":1,"poiId":2733608},{"carport":"B327","occupied":1,"poiId":2733609},{"carport":"B329","occupied":1,"poiId":2733610},{"carport":"B328","occupied":1,"poiId":2733611},{"carport":"B361","occupied":1,"poiId":2733612},{"carport":"B359","occupied":1,"poiId":2733613},{"carport":"B360","occupied":1,"poiId":2733614},{"carport":"B323","occupied":1,"poiId":2733615},{"carport":"B326","occupied":1,"poiId":2733616},{"carport":"B325","occupied":1,"poiId":2733617},{"carport":"B365","occupied":1,"poiId":2733618},{"carport":"B362","occupied":1,"poiId":2733619},{"carport":"B363","occupied":1,"poiId":2733620},{"carport":"B309","occupied":1,"poiId":2733621},{"carport":"B311","occupied":1,"poiId":2733622},{"carport":"B310","occupied":1,"poiId":2733623},{"carport":"B378","occupied":1,"poiId":2733624},{"carport":"B376","occupied":1,"poiId":2733625},{"carport":"B377","occupied":1,"poiId":2733626},{"carport":"B313","occupied":1,"poiId":2733627},{"carport":"B316","occupied":1,"poiId":2733628},{"carport":"B315","occupied":1,"poiId":2733629},{"carport":"B375","occupied":1,"poiId":2733630},{"carport":"B372","occupied":1,"poiId":2733631},{"carport":"B373","occupied":1,"poiId":2733632},{"carport":"B306","occupied":1,"poiId":2733633},{"carport":"B308","occupied":1,"poiId":2733634},{"carport":"B307","occupied":1,"poiId":2733635},{"carport":"B381","occupied":1,"poiId":2733636},{"carport":"B379","occupied":1,"poiId":2733637},{"carport":"B380","occupied":1,"poiId":2733638},{"carport":"B302","occupied":1,"poiId":2733639},{"carport":"B305","occupied":1,"poiId":2733640},{"carport":"B303","occupied":1,"poiId":2733641},{"carport":"B385","occupied":1,"poiId":2733642},{"carport":"B382","occupied":1,"poiId":2733643},{"carport":"B383","occupied":1,"poiId":2733644},{"carport":"B299","occupied":1,"poiId":2733645},{"carport":"B301","occupied":1,"poiId":2733646},{"carport":"B300","occupied":1,"poiId":2733647},{"carport":"B388","occupied":1,"poiId":2733648},{"carport":"B386","occupied":1,"poiId":2733649},{"carport":"B387","occupied":1,"poiId":2733650},{"carport":"B296","occupied":1,"poiId":2733651},{"carport":"B298","occupied":1,"poiId":2733652},{"carport":"B297","occupied":1,"poiId":2733653},{"carport":"B391","occupied":1,"poiId":2733654},{"carport":"B389","occupied":1,"poiId":2733655},{"carport":"B390","occupied":1,"poiId":2733656},{"carport":"B292","occupied":1,"poiId":2733657},{"carport":"B295","occupied":1,"poiId":2733658},{"carport":"B293","occupied":1,"poiId":2733659},{"carport":"B395","occupied":1,"poiId":2733660},{"carport":"B392","occupied":1,"poiId":2733661},{"carport":"B393","occupied":1,"poiId":2733662},{"carport":"B320","occupied":1,"poiId":2733663},{"carport":"B322","occupied":1,"poiId":2733664},{"carport":"B321","occupied":1,"poiId":2733665},{"carport":"B368","occupied":1,"poiId":2733666},{"carport":"B366","occupied":1,"poiId":2733667},{"carport":"B367","occupied":1,"poiId":2733668},{"carport":"B317","occupied":1,"poiId":2733669},{"carport":"B319","occupied":1,"poiId":2733670},{"carport":"B318","occupied":1,"poiId":2733671},{"carport":"B371","occupied":1,"poiId":2733672},{"carport":"B369","occupied":1,"poiId":2733673},{"carport":"B370","occupied":1,"poiId":2733674},{"carport":"B216","occupied":1,"poiId":2733675},{"carport":"B213","occupied":1,"poiId":2733676},{"carport":"B215","occupied":1,"poiId":2733677},{"carport":"B522","occupied":1,"poiId":2733678},{"carport":"B525","occupied":1,"poiId":2733679},{"carport":"B523","occupied":1,"poiId":2733680},{"carport":"B526","occupied":1,"poiId":2733681},{"carport":"B528","occupied":1,"poiId":2733682},{"carport":"B527","occupied":1,"poiId":2733683},{"carport":"B519","occupied":1,"poiId":2733684},{"carport":"B521","occupied":1,"poiId":2733685},{"carport":"B520","occupied":1,"poiId":2733686},{"carport":"B516","occupied":1,"poiId":2733687},{"carport":"B518","occupied":1,"poiId":2733688},{"carport":"B517","occupied":1,"poiId":2733689},{"carport":"B232","occupied":1,"poiId":2733690},{"carport":"B231","occupied":1,"poiId":2733691},{"carport":"B250","occupied":1,"poiId":2733692},{"carport":"B238","occupied":1,"poiId":2733693},{"carport":"B239","occupied":1,"poiId":2733694},{"carport":"B276","occupied":1,"poiId":2733695},{"carport":"B275","occupied":1,"poiId":2733696},{"carport":"B270","occupied":1,"poiId":2733697},{"carport":"B271","occupied":1,"poiId":2733698},{"carport":"B283","occupied":1,"poiId":2733699},{"carport":"B281","occupied":1,"poiId":2733700},{"carport":"B282","occupied":1,"poiId":2733701},{"carport":"B289","occupied":1,"poiId":2733702},{"carport":"B290","occupied":1,"poiId":2733703},{"carport":"B265","occupied":1,"poiId":2733704},{"carport":"B263","occupied":1,"poiId":2733705},{"carport":"B228","occupied":1,"poiId":2733706},{"carport":"B227","occupied":1,"poiId":2733707},{"carport":"B221","occupied":1,"poiId":2733708},{"carport":"B220","occupied":1,"poiId":2733709},{"carport":"B867","occupied":1,"poiId":2733710},{"carport":"B219","occupied":1,"poiId":2733711},{"carport":"B869","occupied":1,"poiId":2733712},{"carport":"B868","occupied":1,"poiId":2733713},{"carport":"B230","occupied":1,"poiId":2733714},{"carport":"B229","occupied":1,"poiId":2733715},{"carport":"B222","occupied":1,"poiId":2733716},{"carport":"B223","occupied":1,"poiId":2733717},{"carport":"B226","occupied":1,"poiId":2733718},{"carport":"B225","occupied":1,"poiId":2733719},{"carport":"B233","occupied":1,"poiId":2733720},{"carport":"B235","occupied":1,"poiId":2733721},{"carport":"B237","occupied":1,"poiId":2733722},{"carport":"B236","occupied":1,"poiId":2733723},{"carport":"B251","occupied":1,"poiId":2733724},{"carport":"B252","occupied":1,"poiId":2733725},{"carport":"B255","occupied":1,"poiId":2733726},{"carport":"B253","occupied":1,"poiId":2733727},{"carport":"B870","occupied":1,"poiId":2733728},{"carport":"B258","occupied":1,"poiId":2733729},{"carport":"B261","occupied":1,"poiId":2733730},{"carport":"B259","occupied":1,"poiId":2733731},{"carport":"B260","occupied":1,"poiId":2733732},{"carport":"B266","occupied":1,"poiId":2733733},{"carport":"B267","occupied":1,"poiId":2733734},{"carport":"B875","occupied":1,"poiId":2733735},{"carport":"B262","occupied":1,"poiId":2733736},{"carport":"B269","occupied":1,"poiId":2733737},{"carport":"B268","occupied":1,"poiId":2733738},{"carport":"B277","occupied":1,"poiId":2733739},{"carport":"B278","occupied":1,"poiId":2733740},{"carport":"B876","occupied":1,"poiId":2733741},{"carport":"B877","occupied":1,"poiId":2733742},{"carport":"B272","occupied":1,"poiId":2733743},{"carport":"B273","occupied":1,"poiId":2733744},{"carport":"B280","occupied":1,"poiId":2733745},{"carport":"B279","occupied":1,"poiId":2733746},{"carport":"B285","occupied":1,"poiId":2733747},{"carport":"B286","occupied":1,"poiId":2733748},{"carport":"B288","occupied":1,"poiId":2733749},{"carport":"B287","occupied":1,"poiId":2733750},{"carport":"B878","occupied":1,"poiId":2733751},{"carport":"B291","occupied":1,"poiId":2733752},{"carport":"C367","occupied":1,"poiId":2733754},{"carport":"C366","occupied":1,"poiId":2733755},{"carport":"C362","occupied":1,"poiId":2733756},{"carport":"C365","occupied":1,"poiId":2733757},{"carport":"C363","occupied":1,"poiId":2733758},{"carport":"C368","occupied":1,"poiId":2733759},{"carport":"C370","occupied":1,"poiId":2733760},{"carport":"C369","occupied":1,"poiId":2733761},{"carport":"B509","occupied":1,"poiId":2733762},{"carport":"B511","occupied":1,"poiId":2733763},{"carport":"B510","occupied":1,"poiId":2733764},{"carport":"B512","occupied":1,"poiId":2733765},{"carport":"B515","occupied":1,"poiId":2733766},{"carport":"B513","occupied":1,"poiId":2733767},{"carport":"B506","occupied":1,"poiId":2733768},{"carport":"B508","occupied":1,"poiId":2733769},{"carport":"B507","occupied":1,"poiId":2733770},{"carport":"B505","occupied":1,"poiId":2733771},{"carport":"B503","occupied":1,"poiId":2733772},{"carport":"B207","occupied":1,"poiId":2733773},{"carport":"B206","occupied":1,"poiId":2733774},{"carport":"B205","occupied":1,"poiId":2733775},{"carport":"B015","occupied":1,"poiId":2733776},{"carport":"B012","occupied":1,"poiId":2733777},{"carport":"B013","occupied":1,"poiId":2733778},{"carport":"B018","occupied":1,"poiId":2733779},{"carport":"B016","occupied":1,"poiId":2733780},{"carport":"B017","occupied":1,"poiId":2733781},{"carport":"B021","occupied":1,"poiId":2733782},{"carport":"B019","occupied":1,"poiId":2733783},{"carport":"B020","occupied":1,"poiId":2733784},{"carport":"B025","occupied":1,"poiId":2733785},{"carport":"B022","occupied":1,"poiId":2733786},{"carport":"B023","occupied":1,"poiId":2733787},{"carport":"B026","occupied":1,"poiId":2733788},{"carport":"B068","occupied":1,"poiId":2733789},{"carport":"B066","occupied":1,"poiId":2733790},{"carport":"B067","occupied":1,"poiId":2733791},{"carport":"B071","occupied":1,"poiId":2733792},{"carport":"B069","occupied":1,"poiId":2733793},{"carport":"B070","occupied":1,"poiId":2733794},{"carport":"B127","occupied":1,"poiId":2733795},{"carport":"B129","occupied":1,"poiId":2733796},{"carport":"B128","occupied":1,"poiId":2733797},{"carport":"B123","occupied":1,"poiId":2733798},{"carport":"B126","occupied":1,"poiId":2733799},{"carport":"B125","occupied":1,"poiId":2733800},{"carport":"B075","occupied":1,"poiId":2733801},{"carport":"B072","occupied":1,"poiId":2733802},{"carport":"B073","occupied":1,"poiId":2733803},{"carport":"B078","occupied":1,"poiId":2733804},{"carport":"B076","occupied":1,"poiId":2733805},{"carport":"B077","occupied":1,"poiId":2733806},{"carport":"B081","occupied":1,"poiId":2733807},{"carport":"B079","occupied":1,"poiId":2733808},{"carport":"B080","occupied":1,"poiId":2733809},{"carport":"B085","occupied":1,"poiId":2733810},{"carport":"B082","occupied":1,"poiId":2733811},{"carport":"B083","occupied":1,"poiId":2733812},{"carport":"B089","occupied":1,"poiId":2733813},{"carport":"B091","occupied":1,"poiId":2733814},{"carport":"B090","occupied":1,"poiId":2733815},{"carport":"B086","occupied":1,"poiId":2733816},{"carport":"B088","occupied":1,"poiId":2733817},{"carport":"B087","occupied":1,"poiId":2733818},{"carport":"B098","occupied":1,"poiId":2733819},{"carport":"B096","occupied":1,"poiId":2733820},{"carport":"B097","occupied":1,"poiId":2733821},{"carport":"B101","occupied":1,"poiId":2733822},{"carport":"B099","occupied":1,"poiId":2733823},{"carport":"B100","occupied":1,"poiId":2733824},{"carport":"B106","occupied":1,"poiId":2733825},{"carport":"B108","occupied":1,"poiId":2733826},{"carport":"B107","occupied":1,"poiId":2733827},{"carport":"B102","occupied":1,"poiId":2733828},{"carport":"B105","occupied":1,"poiId":2733829},{"carport":"B103","occupied":1,"poiId":2733830},{"carport":"B112","occupied":1,"poiId":2733831},{"carport":"B115","occupied":1,"poiId":2733832},{"carport":"B113","occupied":1,"poiId":2733833},{"carport":"B109","occupied":1,"poiId":2733834},{"carport":"B111","occupied":1,"poiId":2733835},{"carport":"B110","occupied":1,"poiId":2733836},{"carport":"B116","occupied":1,"poiId":2733837},{"carport":"B118","occupied":1,"poiId":2733838},{"carport":"B117","occupied":1,"poiId":2733839},{"carport":"B821","occupied":1,"poiId":2733840},{"carport":"B819","occupied":1,"poiId":2733841},{"carport":"B820","occupied":1,"poiId":2733842},{"carport":"B825","occupied":1,"poiId":2733843},{"carport":"B822","occupied":1,"poiId":2733844},{"carport":"B823","occupied":1,"poiId":2733845},{"carport":"B399","occupied":1,"poiId":2733846},{"carport":"B501","occupied":1,"poiId":2733847},{"carport":"B500","occupied":1,"poiId":2733848},{"carport":"B396","occupied":1,"poiId":2733849},{"carport":"B398","occupied":1,"poiId":2733850},{"carport":"B397","occupied":1,"poiId":2733851},{"carport":"B121","occupied":1,"poiId":2733852},{"carport":"B122","occupied":1,"poiId":2733853},{"carport":"B810","occupied":1,"poiId":2733855},{"carport":"B811","occupied":1,"poiId":2733856},{"carport":"B053","occupied":1,"poiId":2733857},{"carport":"B055","occupied":1,"poiId":2733858},{"carport":"B809","occupied":1,"poiId":2733859},{"carport":"B807","occupied":1,"poiId":2733860},{"carport":"B808","occupied":1,"poiId":2733861},{"carport":"B056","occupied":1,"poiId":2733862},{"carport":"B058","occupied":1,"poiId":2733863},{"carport":"B057","occupied":1,"poiId":2733864},{"carport":"B815","occupied":1,"poiId":2733865},{"carport":"B812","occupied":1,"poiId":2733866},{"carport":"B813","occupied":1,"poiId":2733867},{"carport":"B818","occupied":1,"poiId":2733868},{"carport":"B816","occupied":1,"poiId":2733869},{"carport":"B817","occupied":1,"poiId":2733870},{"carport":"B061","occupied":1,"poiId":2733871},{"carport":"B059","occupied":0,"poiId":2733872},{"carport":"B060","occupied":1,"poiId":2733873},{"carport":"B065","occupied":1,"poiId":2733874},{"carport":"B062","occupied":1,"poiId":2733875},{"carport":"B063","occupied":1,"poiId":2733876},{"carport":"B132","occupied":1,"poiId":2733877},{"carport":"B135","occupied":1,"poiId":2733878},{"carport":"B133","occupied":1,"poiId":2733879},{"carport":"B131","occupied":1,"poiId":2733880},{"carport":"B130","occupied":1,"poiId":2733881},{"carport":"B856","occupied":1,"poiId":2733882},{"carport":"B857","occupied":1,"poiId":2733883},{"carport":"B852","occupied":1,"poiId":2733884},{"carport":"B855","occupied":1,"poiId":2733885},{"carport":"B853","occupied":1,"poiId":2733886},{"carport":"B839","occupied":1,"poiId":2733887},{"carport":"B851","occupied":1,"poiId":2733888},{"carport":"B850","occupied":1,"poiId":2733889},{"carport":"B836","occupied":1,"poiId":2733890},{"carport":"B838","occupied":1,"poiId":2733891},{"carport":"B837","occupied":1,"poiId":2733892},{"carport":"B833","occupied":1,"poiId":2733893},{"carport":"B835","occupied":1,"poiId":2733895},{"carport":"B830","occupied":1,"poiId":2733896},{"carport":"B832","occupied":1,"poiId":2733897},{"carport":"B831","occupied":1,"poiId":2733898},{"carport":"B827","occupied":1,"poiId":2733899},{"carport":"B829","occupied":1,"poiId":2733900},{"carport":"B828","occupied":1,"poiId":2733901},{"carport":"B187","occupied":1,"poiId":2733902},{"carport":"B188","occupied":1,"poiId":2733903},{"carport":"B183","occupied":1,"poiId":2733904},{"carport":"B186","occupied":1,"poiId":2733905},{"carport":"B185","occupied":1,"poiId":2733906},{"carport":"B180","occupied":1,"poiId":2733907},{"carport":"B182","occupied":1,"poiId":2733908},{"carport":"B181","occupied":1,"poiId":2733909},{"carport":"B177","occupied":1,"poiId":2733910},{"carport":"B179","occupied":1,"poiId":2733911},{"carport":"B178","occupied":1,"poiId":2733912},{"carport":"B173","occupied":1,"poiId":2733913},{"carport":"B176","occupied":1,"poiId":2733914},{"carport":"B175","occupied":1,"poiId":2733915},{"carport":"B170","occupied":1,"poiId":2733916},{"carport":"B172","occupied":1,"poiId":2733917},{"carport":"B171","occupied":1,"poiId":2733918},{"carport":"B167","occupied":1,"poiId":2733919},{"carport":"B169","occupied":1,"poiId":2733920},{"carport":"B168","occupied":1,"poiId":2733921},{"carport":"B153","occupied":1,"poiId":2733923},{"carport":"B156","occupied":1,"poiId":2733924},{"carport":"B155","occupied":1,"poiId":2733925},{"carport":"B150","occupied":1,"poiId":2733926},{"carport":"B152","occupied":1,"poiId":2733927},{"carport":"B151","occupied":1,"poiId":2733928},{"carport":"B137","occupied":1,"poiId":2733929},{"carport":"B139","occupied":1,"poiId":2733930},{"carport":"B138","occupied":1,"poiId":2733931},{"carport":"B136","occupied":1,"poiId":2733932},{"carport":"B120","occupied":1,"poiId":2733933},{"carport":"B095","occupied":1,"poiId":2733934},{"carport":"B092","occupied":1,"poiId":2733935},{"carport":"B093","occupied":1,"poiId":2733936},{"carport":"B826","occupied":1,"poiId":2733937},{"carport":"B119","occupied":1,"poiId":2733938},{"carport":"B212","occupied":1,"poiId":2733939},{"carport":"B210","occupied":1,"poiId":2733940},{"carport":"B211","occupied":1,"poiId":2733941},{"carport":"B209","occupied":1,"poiId":2733942},{"carport":"B208","occupied":1,"poiId":2733943},{"carport":"B189","occupied":1,"poiId":2733944},{"carport":"B199","occupied":1,"poiId":2733945},{"carport":"B200","occupied":1,"poiId":2733946},{"carport":"B865","occupied":1,"poiId":2733947},{"carport":"B866","occupied":1,"poiId":2733948},{"carport":"B862","occupied":1,"poiId":2733949},{"carport":"B863","occupied":1,"poiId":2733950},{"carport":"B860","occupied":1,"poiId":2733951},{"carport":"B861","occupied":1,"poiId":2733952},{"carport":"B858","occupied":1,"poiId":2733953},{"carport":"B859","occupied":1,"poiId":2733954},{"carport":"B197","occupied":1,"poiId":2733955},{"carport":"B198","occupied":1,"poiId":2733956},{"carport":"B195","occupied":1,"poiId":2733957},{"carport":"B196","occupied":1,"poiId":2733958},{"carport":"B192","occupied":1,"poiId":2733959},{"carport":"B193","occupied":1,"poiId":2733960},{"carport":"B190","occupied":1,"poiId":2733961},{"carport":"B191","occupied":1,"poiId":2733962},{"carport":"B001","occupied":1,"poiId":2733963},{"carport":"B002","occupied":1,"poiId":2733964},{"carport":"B003","occupied":1,"poiId":2733965},{"carport":"B005","occupied":1,"poiId":2733966},{"carport":"B006","occupied":1,"poiId":2733967},{"carport":"B007","occupied":1,"poiId":2733968},{"carport":"B028","occupied":1,"poiId":2733969},{"carport":"B029","occupied":1,"poiId":2733970},{"carport":"B030","occupied":1,"poiId":2733971},{"carport":"B031","occupied":1,"poiId":2733972},{"carport":"B879","occupied":1,"poiId":2733973},{"carport":"B529","occupied":1,"poiId":2733974},{"carport":"B163","occupied":1,"poiId":2733975},{"carport":"B162","occupied":1,"poiId":2733976},{"carport":"B161","occupied":1,"poiId":2733977},{"carport":"B160","occupied":1,"poiId":2733978},{"carport":"B165","occupied":1,"poiId":2733979},{"carport":"B805","occupied":1,"poiId":2733980},{"carport":"B803","occupied":1,"poiId":2733981},{"carport":"B806","occupied":1,"poiId":2733982},{"carport":"B036","occupied":1,"poiId":2733983},{"carport":"B035","occupied":1,"poiId":2733984},{"carport":"B033","occupied":1,"poiId":2733985},{"carport":"B032","occupied":1,"poiId":2733986},{"carport":"B166","occupied":1,"poiId":2733987},{"carport":"B159","occupied":1,"poiId":2733988},{"carport":"B158","occupied":1,"poiId":2733989},{"carport":"B203","occupied":1,"poiId":2733990},{"carport":"B201","occupied":1,"poiId":2733991},{"carport":"B202","occupied":1,"poiId":2733992},{"carport":"B008","occupied":1,"poiId":2733993},{"carport":"B050","occupied":1,"poiId":2733994},{"carport":"B802","occupied":1,"poiId":2733995},{"carport":"B157","occupied":1,"poiId":2733996},{"carport":"B502","occupied":1,"poiId":2733997},{"carport":"A073","occupied":1,"poiId":2734396},{"carport":"A071","occupied":1,"poiId":2734397},{"carport":"A072","occupied":1,"poiId":2734398},{"carport":"A075","occupied":1,"poiId":2734399},{"carport":"A015","occupied":1,"poiId":2734407},{"carport":"A017","occupied":1,"poiId":2734408},{"carport":"A016","occupied":1,"poiId":2734409},{"carport":"A021","occupied":1,"poiId":2734410},{"carport":"A023","occupied":1,"poiId":2734411},{"carport":"A022","occupied":1,"poiId":2734412},{"carport":"A033","occupied":1,"poiId":2734413},{"carport":"A031","occupied":1,"poiId":2734414},{"carport":"A032","occupied":1,"poiId":2734415},{"carport":"A011","occupied":1,"poiId":2734416},{"carport":"A013","occupied":1,"poiId":2734417},{"carport":"A012","occupied":1,"poiId":2734418},{"carport":"A037","occupied":1,"poiId":2734419},{"carport":"A035","occupied":1,"poiId":2734420},{"carport":"A036","occupied":1,"poiId":2734421},{"carport":"A018","occupied":1,"poiId":2734422},{"carport":"A020","occupied":1,"poiId":2734423},{"carport":"A019","occupied":1,"poiId":2734424},{"carport":"A030","occupied":1,"poiId":2734425},{"carport":"A028","occupied":1,"poiId":2734426},{"carport":"A029","occupied":1,"poiId":2734427},{"carport":"A051","occupied":1,"poiId":2734428},{"carport":"A053","occupied":1,"poiId":2734429},{"carport":"A052","occupied":1,"poiId":2734430},{"carport":"A067","occupied":1,"poiId":2734431},{"carport":"A065","occupied":1,"poiId":2734432},{"carport":"A066","occupied":1,"poiId":2734433},{"carport":"A038","occupied":1,"poiId":2734434},{"carport":"A050","occupied":1,"poiId":2734435},{"carport":"A039","occupied":1,"poiId":2734436},{"carport":"A070","occupied":1,"poiId":2734437},{"carport":"A068","occupied":1,"poiId":2734438},{"carport":"A069","occupied":1,"poiId":2734439},{"carport":"A055","occupied":1,"poiId":2734440},{"carport":"A057","occupied":1,"poiId":2734441},{"carport":"A056","occupied":1,"poiId":2734442},{"carport":"A063","occupied":1,"poiId":2734443},{"carport":"A061","occupied":1,"poiId":2734444},{"carport":"A062","occupied":1,"poiId":2734445},{"carport":"A005","occupied":1,"poiId":2734446},{"carport":"A007","occupied":1,"poiId":2734447},{"carport":"A006","occupied":1,"poiId":2734448},{"carport":"A001","occupied":1,"poiId":2734449},{"carport":"A003","occupied":1,"poiId":2734450},{"carport":"A002","occupied":1,"poiId":2734451},{"carport":"A008","occupied":1,"poiId":2734452},{"carport":"A010","occupied":1,"poiId":2734453},{"carport":"A009","occupied":1,"poiId":2734454},{"carport":"A080","occupied":1,"poiId":2734455},{"carport":"A082","occupied":1,"poiId":2734456},{"carport":"A081","occupied":1,"poiId":2734457},{"carport":"A077","occupied":1,"poiId":2734458},{"carport":"A079","occupied":1,"poiId":2734459},{"carport":"A078","occupied":1,"poiId":2734460},{"carport":"A083","occupied":1,"poiId":2734461},{"carport":"A086","occupied":1,"poiId":2734462},{"carport":"A085","occupied":1,"poiId":2734463},{"carport":"A090","occupied":1,"poiId":2734464},{"carport":"A092","occupied":1,"poiId":2734465},{"carport":"A091","occupied":1,"poiId":2734466},{"carport":"A087","occupied":1,"poiId":2734467},{"carport":"A089","occupied":1,"poiId":2734468},{"carport":"A088","occupied":1,"poiId":2734469},{"carport":"A093","occupied":1,"poiId":2734470},{"carport":"A096","occupied":1,"poiId":2734471},{"carport":"A095","occupied":1,"poiId":2734472},{"carport":"A025","occupied":1,"poiId":2734473},{"carport":"A027","occupied":1,"poiId":2734474},{"carport":"A059","occupied":1,"poiId":2734475},{"carport":"A058","occupied":1,"poiId":2734476},{"carport":"A060","occupied":1,"poiId":2734477},{"carport":"A026","occupied":1,"poiId":2734478},{"carport":"A312","occupied":1,"poiId":2734479},{"carport":"A315","occupied":1,"poiId":2734480},{"carport":"A313","occupied":1,"poiId":2734481},{"carport":"A311","occupied":1,"poiId":2734482},{"carport":"A310","occupied":1,"poiId":2734484},{"carport":"A308","occupied":1,"poiId":2734485},{"carport":"A309","occupied":1,"poiId":2734486},{"carport":"A317","occupied":1,"poiId":2734487},{"carport":"A319","occupied":1,"poiId":2734488},{"carport":"A107","occupied":1,"poiId":2734489},{"carport":"A320","occupied":1,"poiId":2734490},{"carport":"A316","occupied":1,"poiId":2734491},{"carport":"A307","occupied":1,"poiId":2734492},{"carport":"A101","occupied":1,"poiId":2734499},{"carport":"A100","occupied":1,"poiId":2734500},{"carport":"A102","occupied":1,"poiId":2734501},{"carport":"A105","occupied":1,"poiId":2734502},{"carport":"A103","occupied":1,"poiId":2734503},{"carport":"A097","occupied":1,"poiId":2734504},{"carport":"A099","occupied":1,"poiId":2734505},{"carport":"A098","occupied":1,"poiId":2734506},{"carport":"A306","occupied":1,"poiId":2734507},{"carport":"A305","occupied":1,"poiId":2734508},{"carport":"A230","occupied":1,"poiId":2734509},{"carport":"A232","occupied":1,"poiId":2734510},{"carport":"A231","occupied":1,"poiId":2734511},{"carport":"A220","occupied":1,"poiId":2734512},{"carport":"A218","occupied":1,"poiId":2734513},{"carport":"A219","occupied":1,"poiId":2734514},{"carport":"A227","occupied":1,"poiId":2734515},{"carport":"A229","occupied":1,"poiId":2734516},{"carport":"A228","occupied":1,"poiId":2734517},{"carport":"A223","occupied":1,"poiId":2734518},{"carport":"A221","occupied":1,"poiId":2734519},{"carport":"A222","occupied":1,"poiId":2734520},{"carport":"A233","occupied":1,"poiId":2734521},{"carport":"A236","occupied":1,"poiId":2734522},{"carport":"A235","occupied":1,"poiId":2734523},{"carport":"A217","occupied":1,"poiId":2734524},{"carport":"A215","occupied":1,"poiId":2734525},{"carport":"A216","occupied":1,"poiId":2734526},{"carport":"A226","occupied":1,"poiId":2734527},{"carport":"A225","occupied":1,"poiId":2734528},{"carport":"A237","occupied":1,"poiId":2734529},{"carport":"A239","occupied":1,"poiId":2734530},{"carport":"A238","occupied":1,"poiId":2734531},{"carport":"A213","occupied":1,"poiId":2734532},{"carport":"A211","occupied":1,"poiId":2734533},{"carport":"A212","occupied":1,"poiId":2734534},{"carport":"A250","occupied":1,"poiId":2734535},{"carport":"A252","occupied":1,"poiId":2734536},{"carport":"A251","occupied":1,"poiId":2734537},{"carport":"A210","occupied":1,"poiId":2734538},{"carport":"A208","occupied":1,"poiId":2734539},{"carport":"A209","occupied":1,"poiId":2734540},{"carport":"A253","occupied":1,"poiId":2734541},{"carport":"A256","occupied":1,"poiId":2734542},{"carport":"A255","occupied":1,"poiId":2734543},{"carport":"A207","occupied":1,"poiId":2734544},{"carport":"A205","occupied":1,"poiId":2734545},{"carport":"A206","occupied":1,"poiId":2734546},{"carport":"A257","occupied":1,"poiId":2734547},{"carport":"A259","occupied":1,"poiId":2734548},{"carport":"A258","occupied":1,"poiId":2734549},{"carport":"A203","occupied":1,"poiId":2734550},{"carport":"A201","occupied":1,"poiId":2734551},{"carport":"A202","occupied":1,"poiId":2734552},{"carport":"A260","occupied":1,"poiId":2734553},{"carport":"A262","occupied":1,"poiId":2734554},{"carport":"A261","occupied":1,"poiId":2734555},{"carport":"A200","occupied":1,"poiId":2734556},{"carport":"A198","occupied":1,"poiId":2734557},{"carport":"A199","occupied":1,"poiId":2734558},{"carport":"A263","occupied":1,"poiId":2734559},{"carport":"A266","occupied":1,"poiId":2734560},{"carport":"A265","occupied":1,"poiId":2734561},{"carport":"A197","occupied":1,"poiId":2734562},{"carport":"A195","occupied":1,"poiId":2734563},{"carport":"A196","occupied":1,"poiId":2734564},{"carport":"A133","occupied":1,"poiId":2734565},{"carport":"A136","occupied":1,"poiId":2734566},{"carport":"A135","occupied":1,"poiId":2734567},{"carport":"A156","occupied":1,"poiId":2734568},{"carport":"A153","occupied":1,"poiId":2734569},{"carport":"A155","occupied":1,"poiId":2734570},{"carport":"A130","occupied":1,"poiId":2734571},{"carport":"A132","occupied":1,"poiId":2734572},{"carport":"A131","occupied":1,"poiId":2734573},{"carport":"A159","occupied":1,"poiId":2734574},{"carport":"A157","occupied":1,"poiId":2734575},{"carport":"A158","occupied":1,"poiId":2734576},{"carport":"A137","occupied":1,"poiId":2734577},{"carport":"A139","occupied":1,"poiId":2734578},{"carport":"A138","occupied":1,"poiId":2734579},{"carport":"A152","occupied":1,"poiId":2734580},{"carport":"A150","occupied":1,"poiId":2734581},{"carport":"A151","occupied":1,"poiId":2734582},{"carport":"A127","occupied":1,"poiId":2734583},{"carport":"A129","occupied":1,"poiId":2734584},{"carport":"A128","occupied":1,"poiId":2734585},{"carport":"A162","occupied":1,"poiId":2734586},{"carport":"A160","occupied":1,"poiId":2734587},{"carport":"A161","occupied":1,"poiId":2734588},{"carport":"A126","occupied":1,"poiId":2734589},{"carport":"A163","occupied":1,"poiId":2734590},{"carport":"A113","occupied":1,"poiId":2734591},{"carport":"A116","occupied":1,"poiId":2734592},{"carport":"A115","occupied":1,"poiId":2734593},{"carport":"A117","occupied":1,"poiId":2734594},{"carport":"A119","occupied":1,"poiId":2734595},{"carport":"A118","occupied":1,"poiId":2734596},{"carport":"A120","occupied":1,"poiId":2734597},{"carport":"A122","occupied":1,"poiId":2734598},{"carport":"A121","occupied":1,"poiId":2734599},{"carport":"A123","occupied":1,"poiId":2734600},{"carport":"A125","occupied":1,"poiId":2734601},{"carport":"A106","occupied":1,"poiId":2734602},{"carport":"A108","occupied":1,"poiId":2734603},{"carport":"A318","occupied":1,"poiId":2734604},{"carport":"A110","occupied":1,"poiId":2734605},{"carport":"A111","occupied":1,"poiId":2734606},{"carport":"A109","occupied":1,"poiId":2734607},{"carport":"A169","occupied":1,"poiId":2734608},{"carport":"A166","occupied":1,"poiId":2734611},{"carport":"A168","occupied":1,"poiId":2734612},{"carport":"A167","occupied":1,"poiId":2734613},{"carport":"A165","occupied":1,"poiId":2734614},{"carport":"A175","occupied":1,"poiId":2734616},{"carport":"A173","occupied":1,"poiId":2734617},{"carport":"A177","occupied":1,"poiId":2734618},{"carport":"A176","occupied":1,"poiId":2734619},{"carport":"A181","occupied":1,"poiId":2734620},{"carport":"A182","occupied":1,"poiId":2734621},{"carport":"A180","occupied":1,"poiId":2734622},{"carport":"A179","occupied":1,"poiId":2734623},{"carport":"A178","occupied":1,"poiId":2734624},{"carport":"A186","occupied":1,"poiId":2734626},{"carport":"A187","occupied":1,"poiId":2734627},{"carport":"A185","occupied":1,"poiId":2734628},{"carport":"A272","occupied":1,"poiId":2734636},{"carport":"A273","occupied":1,"poiId":2734637},{"carport":"A271","occupied":1,"poiId":2734638},{"carport":"A276","occupied":1,"poiId":2734639},{"carport":"A275","occupied":1,"poiId":2734640},{"carport":"A277","occupied":1,"poiId":2734641},{"carport":"A278","occupied":1,"poiId":2734642},{"carport":"A299","occupied":1,"poiId":2734662},{"carport":"A297","occupied":1,"poiId":2734663},{"carport":"A298","occupied":1,"poiId":2734664},{"carport":"A296","occupied":1,"poiId":2734665},{"carport":"A293","occupied":1,"poiId":2734666},{"carport":"A295","occupied":1,"poiId":2734667},{"carport":"A292","occupied":1,"poiId":2734668},{"carport":"A290","occupied":1,"poiId":2734669},{"carport":"A291","occupied":1,"poiId":2734670},{"carport":"A289","occupied":1,"poiId":2734671},{"carport":"A287","occupied":1,"poiId":2734672},{"carport":"A288","occupied":1,"poiId":2734673},{"carport":"A286","occupied":1,"poiId":2734674},{"carport":"A283","occupied":1,"poiId":2734675},{"carport":"A285","occupied":1,"poiId":2734676},{"carport":"A282","occupied":1,"poiId":2734677},{"carport":"A280","occupied":1,"poiId":2734678},{"carport":"A281","occupied":1,"poiId":2734679},{"carport":"A279","occupied":1,"poiId":2734680},{"carport":"A172","occupied":1,"poiId":2734681},{"carport":"A171","occupied":1,"poiId":2734682},{"carport":"A170","occupied":1,"poiId":2734683},{"carport":"A189","occupied":1,"poiId":2734684},{"carport":"A190","occupied":1,"poiId":2734685},{"carport":"A188","occupied":1,"poiId":2734686},{"carport":"A268","occupied":1,"poiId":2734687},{"carport":"A269","occupied":1,"poiId":2734688},{"carport":"A267","occupied":1,"poiId":2734689},{"carport":"A270","occupied":1,"poiId":2734690},{"carport":"A183","occupied":1,"poiId":2734691},{"carport":"A112","occupied":1,"poiId":2734693},{"carport":"A300","occupied":1,"poiId":2734696},{"carport":"A301","occupied":1,"poiId":2734697},{"carport":"A303","occupied":1,"poiId":2734698},{"carport":"A302","occupied":1,"poiId":2734699},{"carport":"A192","occupied":1,"poiId":2734700},{"carport":"A193","occupied":1,"poiId":2734701},{"carport":"A191","occupied":1,"poiId":2734702},{"carport":"A076","occupied":1,"poiId":2734703},{"carport":"B051","occupied":1,"poiId":2737604},{"carport":"B052","occupied":1,"poiId":2737605}]}
+{
+  "carportInfos" : [ {
+    "carport" : "A2022",
+    "poiId" : 2871665,
+    "occupied" : 0
+  }, {
+    "carport" : "A2021",
+    "poiId" : 2871666,
+    "occupied" : 0
+  }, {
+    "carport" : "A2020",
+    "poiId" : 2871667,
+    "occupied" : 1
+  }, {
+    "carport" : "A2019",
+    "poiId" : 2871668,
+    "occupied" : 0
+  }, {
+    "carport" : "C2005",
+    "poiId" : 2871669,
+    "occupied" : 0
+  }, {
+    "carport" : "C2007",
+    "poiId" : 2871670,
+    "occupied" : 0
+  }, {
+    "carport" : "C2006",
+    "poiId" : 2871671,
+    "occupied" : 0
+  }, {
+    "carport" : "C2012",
+    "poiId" : 2871672,
+    "occupied" : 1
+  }, {
+    "carport" : "C2011",
+    "poiId" : 2871673,
+    "occupied" : 0
+  }, {
+    "carport" : "C2078",
+    "poiId" : 2871674,
+    "occupied" : 0
+  }, {
+    "carport" : "C2093",
+    "poiId" : 2871675,
+    "occupied" : 0
+  }, {
+    "carport" : "C2091",
+    "poiId" : 2871676,
+    "occupied" : 0
+  }, {
+    "carport" : "C2100",
+    "poiId" : 2871681,
+    "occupied" : 0
+  }, {
+    "carport" : "C2107",
+    "poiId" : 2871682,
+    "occupied" : 0
+  }, {
+    "carport" : "C2106",
+    "poiId" : 2871683,
+    "occupied" : 0
+  }, {
+    "carport" : "C2104",
+    "poiId" : 2871685,
+    "occupied" : 0
+  }, {
+    "carport" : "D2034",
+    "poiId" : 2871686,
+    "occupied" : 0
+  }, {
+    "carport" : "C2111",
+    "poiId" : 2871688,
+    "occupied" : 0
+  }, {
+    "carport" : "C2109",
+    "poiId" : 2871689,
+    "occupied" : 0
+  }, {
+    "carport" : "C2108",
+    "poiId" : 2871690,
+    "occupied" : 0
+  }, {
+    "carport" : "C2110",
+    "poiId" : 2871691,
+    "occupied" : 0
+  }, {
+    "carport" : "D2026",
+    "poiId" : 2871692,
+    "occupied" : 0
+  }, {
+    "carport" : "D2027",
+    "poiId" : 2871693,
+    "occupied" : 0
+  }, {
+    "carport" : "D2024",
+    "poiId" : 2871694,
+    "occupied" : 0
+  }, {
+    "carport" : "D2025",
+    "poiId" : 2871695,
+    "occupied" : 0
+  }, {
+    "carport" : "D2029",
+    "poiId" : 2871696,
+    "occupied" : 0
+  }, {
+    "carport" : "A2017",
+    "poiId" : 2871697,
+    "occupied" : 0
+  }, {
+    "carport" : "A2018",
+    "poiId" : 2871698,
+    "occupied" : 0
+  }, {
+    "carport" : "A2015",
+    "poiId" : 2871699,
+    "occupied" : 1
+  }, {
+    "carport" : "A2016",
+    "poiId" : 2871700,
+    "occupied" : 0
+  }, {
+    "carport" : "A2012",
+    "poiId" : 2871701,
+    "occupied" : 0
+  }, {
+    "carport" : "A2013",
+    "poiId" : 2871702,
+    "occupied" : 0
+  }, {
+    "carport" : "A2011",
+    "poiId" : 2871703,
+    "occupied" : 0
+  }, {
+    "carport" : "A2014",
+    "poiId" : 2871704,
+    "occupied" : 1
+  }, {
+    "carport" : "A2007",
+    "poiId" : 2871705,
+    "occupied" : 0
+  }, {
+    "carport" : "A2010",
+    "poiId" : 2871706,
+    "occupied" : 0
+  }, {
+    "carport" : "A2009",
+    "poiId" : 2871707,
+    "occupied" : 0
+  }, {
+    "carport" : "A2008",
+    "poiId" : 2871708,
+    "occupied" : 1
+  }, {
+    "carport" : "A2003",
+    "poiId" : 2871709,
+    "occupied" : 0
+  }, {
+    "carport" : "A2002",
+    "poiId" : 2871710,
+    "occupied" : 0
+  }, {
+    "carport" : "A2004",
+    "poiId" : 2871711,
+    "occupied" : 0
+  }, {
+    "carport" : "A2001",
+    "poiId" : 2871712,
+    "occupied" : 0
+  }, {
+    "carport" : "B2037",
+    "poiId" : 2871713,
+    "occupied" : 0
+  }, {
+    "carport" : "B2036",
+    "poiId" : 2871714,
+    "occupied" : 0
+  }, {
+    "carport" : "B2032",
+    "poiId" : 2871715,
+    "occupied" : 1
+  }, {
+    "carport" : "B2033",
+    "poiId" : 2871716,
+    "occupied" : 0
+  }, {
+    "carport" : "B2031",
+    "poiId" : 2871717,
+    "occupied" : 0
+  }, {
+    "carport" : "B2034",
+    "poiId" : 2871718,
+    "occupied" : 0
+  }, {
+    "carport" : "B2030",
+    "poiId" : 2871719,
+    "occupied" : 1
+  }, {
+    "carport" : "B2029",
+    "poiId" : 2871720,
+    "occupied" : 0
+  }, {
+    "carport" : "B2028",
+    "poiId" : 2871721,
+    "occupied" : 0
+  }, {
+    "carport" : "B2025",
+    "poiId" : 2871722,
+    "occupied" : 1
+  }, {
+    "carport" : "B2026",
+    "poiId" : 2871723,
+    "occupied" : 1
+  }, {
+    "carport" : "B2027",
+    "poiId" : 2871724,
+    "occupied" : 1
+  }, {
+    "carport" : "B2022",
+    "poiId" : 2871725,
+    "occupied" : 0
+  }, {
+    "carport" : "B2024",
+    "poiId" : 2871726,
+    "occupied" : 1
+  }, {
+    "carport" : "B2023",
+    "poiId" : 2871727,
+    "occupied" : 1
+  }, {
+    "carport" : "B2021",
+    "poiId" : 2871728,
+    "occupied" : 0
+  }, {
+    "carport" : "B2020",
+    "poiId" : 2871729,
+    "occupied" : 1
+  }, {
+    "carport" : "B2017",
+    "poiId" : 2871730,
+    "occupied" : 0
+  }, {
+    "carport" : "B2047",
+    "poiId" : 2871731,
+    "occupied" : 0
+  }, {
+    "carport" : "B2046",
+    "poiId" : 2871732,
+    "occupied" : 0
+  }, {
+    "carport" : "B2044",
+    "poiId" : 2871735,
+    "occupied" : 0
+  }, {
+    "carport" : "B2042",
+    "poiId" : 2871736,
+    "occupied" : 0
+  }, {
+    "carport" : "B2038",
+    "poiId" : 2871738,
+    "occupied" : 0
+  }, {
+    "carport" : "B2040",
+    "poiId" : 2871740,
+    "occupied" : 0
+  }, {
+    "carport" : "A2024",
+    "poiId" : 2871741,
+    "occupied" : 0
+  }, {
+    "carport" : "A2023",
+    "poiId" : 2871742,
+    "occupied" : 0
+  }, {
+    "carport" : "A2026",
+    "poiId" : 2871743,
+    "occupied" : 0
+  }, {
+    "carport" : "A2027",
+    "poiId" : 2871744,
+    "occupied" : 0
+  }, {
+    "carport" : "A2025",
+    "poiId" : 2871745,
+    "occupied" : 0
+  }, {
+    "carport" : "A2029",
+    "poiId" : 2871746,
+    "occupied" : 1
+  }, {
+    "carport" : "A2030",
+    "poiId" : 2871747,
+    "occupied" : 0
+  }, {
+    "carport" : "A2028",
+    "poiId" : 2871748,
+    "occupied" : 0
+  }, {
+    "carport" : "A2032",
+    "poiId" : 2871749,
+    "occupied" : 1
+  }, {
+    "carport" : "A2033",
+    "poiId" : 2871750,
+    "occupied" : 0
+  }, {
+    "carport" : "A2031",
+    "poiId" : 2871751,
+    "occupied" : 0
+  }, {
+    "carport" : "A2034",
+    "poiId" : 2871752,
+    "occupied" : 0
+  }, {
+    "carport" : "A2036",
+    "poiId" : 2871753,
+    "occupied" : 0
+  }, {
+    "carport" : "A2035",
+    "poiId" : 2871754,
+    "occupied" : 0
+  }, {
+    "carport" : "A2038",
+    "poiId" : 2871755,
+    "occupied" : 0
+  }, {
+    "carport" : "A2037",
+    "poiId" : 2871756,
+    "occupied" : 0
+  }, {
+    "carport" : "A2039",
+    "poiId" : 2871757,
+    "occupied" : 1
+  }, {
+    "carport" : "A2044",
+    "poiId" : 2871758,
+    "occupied" : 0
+  }, {
+    "carport" : "A2043",
+    "poiId" : 2871759,
+    "occupied" : 0
+  }, {
+    "carport" : "A2045",
+    "poiId" : 2871760,
+    "occupied" : 0
+  }, {
+    "carport" : "A2048",
+    "poiId" : 2871761,
+    "occupied" : 0
+  }, {
+    "carport" : "A2047",
+    "poiId" : 2871762,
+    "occupied" : 0
+  }, {
+    "carport" : "A2049",
+    "poiId" : 2871763,
+    "occupied" : 0
+  }, {
+    "carport" : "A2050",
+    "poiId" : 2871764,
+    "occupied" : 1
+  }, {
+    "carport" : "A2054",
+    "poiId" : 2871765,
+    "occupied" : 0
+  }, {
+    "carport" : "A2056",
+    "poiId" : 2871766,
+    "occupied" : 0
+  }, {
+    "carport" : "A2053",
+    "poiId" : 2871767,
+    "occupied" : 0
+  }, {
+    "carport" : "A2055",
+    "poiId" : 2871768,
+    "occupied" : 0
+  }, {
+    "carport" : "A2052",
+    "poiId" : 2871769,
+    "occupied" : 0
+  }, {
+    "carport" : "A2051",
+    "poiId" : 2871770,
+    "occupied" : 0
+  }, {
+    "carport" : "A2065",
+    "poiId" : 2871771,
+    "occupied" : 1
+  }, {
+    "carport" : "A2064",
+    "poiId" : 2871772,
+    "occupied" : 0
+  }, {
+    "carport" : "A2066",
+    "poiId" : 2871773,
+    "occupied" : 0
+  }, {
+    "carport" : "A2067",
+    "poiId" : 2871774,
+    "occupied" : 0
+  }, {
+    "carport" : "A2069",
+    "poiId" : 2871775,
+    "occupied" : 0
+  }, {
+    "carport" : "A2068",
+    "poiId" : 2871776,
+    "occupied" : 0
+  }, {
+    "carport" : "A2059",
+    "poiId" : 2871777,
+    "occupied" : 0
+  }, {
+    "carport" : "A2058",
+    "poiId" : 2871778,
+    "occupied" : 1
+  }, {
+    "carport" : "A2061",
+    "poiId" : 2871779,
+    "occupied" : 0
+  }, {
+    "carport" : "A2060",
+    "poiId" : 2871780,
+    "occupied" : 0
+  }, {
+    "carport" : "B2089",
+    "poiId" : 2871781,
+    "occupied" : 1
+  }, {
+    "carport" : "B2090",
+    "poiId" : 2871782,
+    "occupied" : 0
+  }, {
+    "carport" : "B2091",
+    "poiId" : 2871783,
+    "occupied" : 0
+  }, {
+    "carport" : "B2063",
+    "poiId" : 2871784,
+    "occupied" : 0
+  }, {
+    "carport" : "B2062",
+    "poiId" : 2871785,
+    "occupied" : 0
+  }, {
+    "carport" : "B2061",
+    "poiId" : 2871786,
+    "occupied" : 0
+  }, {
+    "carport" : "B2064",
+    "poiId" : 2871787,
+    "occupied" : 0
+  }, {
+    "carport" : "B2088",
+    "poiId" : 2871788,
+    "occupied" : 0
+  }, {
+    "carport" : "B2087",
+    "poiId" : 2871789,
+    "occupied" : 0
+  }, {
+    "carport" : "B2086",
+    "poiId" : 2871790,
+    "occupied" : 1
+  }, {
+    "carport" : "B2065",
+    "poiId" : 2871791,
+    "occupied" : 1
+  }, {
+    "carport" : "B2066",
+    "poiId" : 2871792,
+    "occupied" : 0
+  }, {
+    "carport" : "B2085",
+    "poiId" : 2871793,
+    "occupied" : 0
+  }, {
+    "carport" : "B2084",
+    "poiId" : 2871794,
+    "occupied" : 1
+  }, {
+    "carport" : "B2083",
+    "poiId" : 2871795,
+    "occupied" : 0
+  }, {
+    "carport" : "B2068",
+    "poiId" : 2871796,
+    "occupied" : 0
+  }, {
+    "carport" : "B2069",
+    "poiId" : 2871797,
+    "occupied" : 0
+  }, {
+    "carport" : "B2067",
+    "poiId" : 2871798,
+    "occupied" : 0
+  }, {
+    "carport" : "B2070",
+    "poiId" : 2871799,
+    "occupied" : 0
+  }, {
+    "carport" : "B2081",
+    "poiId" : 2871800,
+    "occupied" : 0
+  }, {
+    "carport" : "B2071",
+    "poiId" : 2871801,
+    "occupied" : 0
+  }, {
+    "carport" : "B2082",
+    "poiId" : 2871802,
+    "occupied" : 0
+  }, {
+    "carport" : "B2079",
+    "poiId" : 2871803,
+    "occupied" : 1
+  }, {
+    "carport" : "B2080",
+    "poiId" : 2871804,
+    "occupied" : 0
+  }, {
+    "carport" : "B2072",
+    "poiId" : 2871805,
+    "occupied" : 0
+  }, {
+    "carport" : "B2073",
+    "poiId" : 2871806,
+    "occupied" : 0
+  }, {
+    "carport" : "B2074",
+    "poiId" : 2871807,
+    "occupied" : 0
+  }, {
+    "carport" : "B2075",
+    "poiId" : 2871808,
+    "occupied" : 0
+  }, {
+    "carport" : "B2124",
+    "poiId" : 2871809,
+    "occupied" : 0
+  }, {
+    "carport" : "B2125",
+    "poiId" : 2871810,
+    "occupied" : 1
+  }, {
+    "carport" : "B2126",
+    "poiId" : 2871811,
+    "occupied" : 0
+  }, {
+    "carport" : "C2036",
+    "poiId" : 2871812,
+    "occupied" : 1
+  }, {
+    "carport" : "C2038",
+    "poiId" : 2871813,
+    "occupied" : 0
+  }, {
+    "carport" : "C2037",
+    "poiId" : 2871814,
+    "occupied" : 0
+  }, {
+    "carport" : "C2031",
+    "poiId" : 2871815,
+    "occupied" : 1
+  }, {
+    "carport" : "C2033",
+    "poiId" : 2871816,
+    "occupied" : 1
+  }, {
+    "carport" : "C2032",
+    "poiId" : 2871817,
+    "occupied" : 1
+  }, {
+    "carport" : "B2127",
+    "poiId" : 2871818,
+    "occupied" : 1
+  }, {
+    "carport" : "B2128",
+    "poiId" : 2871819,
+    "occupied" : 0
+  }, {
+    "carport" : "B2130",
+    "poiId" : 2871820,
+    "occupied" : 0
+  }, {
+    "carport" : "B2129",
+    "poiId" : 2871821,
+    "occupied" : 1
+  }, {
+    "carport" : "C2034",
+    "poiId" : 2871822,
+    "occupied" : 0
+  }, {
+    "carport" : "C2035",
+    "poiId" : 2871823,
+    "occupied" : 0
+  }, {
+    "carport" : "B2057",
+    "poiId" : 2871824,
+    "occupied" : 0
+  }, {
+    "carport" : "B2060",
+    "poiId" : 2871826,
+    "occupied" : 0
+  }, {
+    "carport" : "B2056",
+    "poiId" : 2871828,
+    "occupied" : 0
+  }, {
+    "carport" : "B2055",
+    "poiId" : 2871829,
+    "occupied" : 1
+  }, {
+    "carport" : "C2044",
+    "poiId" : 2871830,
+    "occupied" : 0
+  }, {
+    "carport" : "C2043",
+    "poiId" : 2871831,
+    "occupied" : 0
+  }, {
+    "carport" : "C2069",
+    "poiId" : 2871832,
+    "occupied" : 1
+  }, {
+    "carport" : "C2068",
+    "poiId" : 2871833,
+    "occupied" : 0
+  }, {
+    "carport" : "C2097",
+    "poiId" : 2871839,
+    "occupied" : 0
+  }, {
+    "carport" : "C2099",
+    "poiId" : 2871840,
+    "occupied" : 0
+  }, {
+    "carport" : "C2098",
+    "poiId" : 2871841,
+    "occupied" : 0
+  }, {
+    "carport" : "C2095",
+    "poiId" : 2871842,
+    "occupied" : 0
+  }, {
+    "carport" : "C2096",
+    "poiId" : 2871843,
+    "occupied" : 0
+  }, {
+    "carport" : "D2017",
+    "poiId" : 2871844,
+    "occupied" : 0
+  }, {
+    "carport" : "D2019",
+    "poiId" : 2871845,
+    "occupied" : 0
+  }, {
+    "carport" : "D2018",
+    "poiId" : 2871846,
+    "occupied" : 0
+  }, {
+    "carport" : "D2042",
+    "poiId" : 2871847,
+    "occupied" : 0
+  }, {
+    "carport" : "D2044",
+    "poiId" : 2871848,
+    "occupied" : 0
+  }, {
+    "carport" : "D2043",
+    "poiId" : 2871849,
+    "occupied" : 0
+  }, {
+    "carport" : "D2041",
+    "poiId" : 2871850,
+    "occupied" : 0
+  }, {
+    "carport" : "D2040",
+    "poiId" : 2871851,
+    "occupied" : 0
+  }, {
+    "carport" : "D2020",
+    "poiId" : 2871852,
+    "occupied" : 0
+  }, {
+    "carport" : "D2021",
+    "poiId" : 2871853,
+    "occupied" : 0
+  }, {
+    "carport" : "D2037",
+    "poiId" : 2871854,
+    "occupied" : 0
+  }, {
+    "carport" : "D2036",
+    "poiId" : 2871855,
+    "occupied" : 0
+  }, {
+    "carport" : "D2022",
+    "poiId" : 2871856,
+    "occupied" : 0
+  }, {
+    "carport" : "D2023",
+    "poiId" : 2871857,
+    "occupied" : 0
+  }, {
+    "carport" : "D2031",
+    "poiId" : 2871858,
+    "occupied" : 0
+  }, {
+    "carport" : "D2033",
+    "poiId" : 2871859,
+    "occupied" : 0
+  }, {
+    "carport" : "C2112",
+    "poiId" : 2871861,
+    "occupied" : 0
+  }, {
+    "carport" : "C2113",
+    "poiId" : 2871862,
+    "occupied" : 0
+  }, {
+    "carport" : "B2014",
+    "poiId" : 2871863,
+    "occupied" : 0
+  }, {
+    "carport" : "B2013",
+    "poiId" : 2871864,
+    "occupied" : 0
+  }, {
+    "carport" : "B2015",
+    "poiId" : 2871865,
+    "occupied" : 0
+  }, {
+    "carport" : "B2016",
+    "poiId" : 2871866,
+    "occupied" : 0
+  }, {
+    "carport" : "B2010",
+    "poiId" : 2871867,
+    "occupied" : 0
+  }, {
+    "carport" : "B2011",
+    "poiId" : 2871868,
+    "occupied" : 0
+  }, {
+    "carport" : "B2012",
+    "poiId" : 2871869,
+    "occupied" : 0
+  }, {
+    "carport" : "B2009",
+    "poiId" : 2871870,
+    "occupied" : 0
+  }, {
+    "carport" : "B2007",
+    "poiId" : 2871871,
+    "occupied" : 1
+  }, {
+    "carport" : "B2008",
+    "poiId" : 2871872,
+    "occupied" : 0
+  }, {
+    "carport" : "B2006",
+    "poiId" : 2871873,
+    "occupied" : 0
+  }, {
+    "carport" : "B2004",
+    "poiId" : 2871874,
+    "occupied" : 0
+  }, {
+    "carport" : "B2005",
+    "poiId" : 2871875,
+    "occupied" : 0
+  }, {
+    "carport" : "B2002",
+    "poiId" : 2871876,
+    "occupied" : 0
+  }, {
+    "carport" : "B2003",
+    "poiId" : 2871877,
+    "occupied" : 0
+  }, {
+    "carport" : "B2001",
+    "poiId" : 2871878,
+    "occupied" : 0
+  }, {
+    "carport" : "C2025",
+    "poiId" : 2871879,
+    "occupied" : 1
+  }, {
+    "carport" : "C2023",
+    "poiId" : 2871880,
+    "occupied" : 0
+  }, {
+    "carport" : "C2024",
+    "poiId" : 2871881,
+    "occupied" : 0
+  }, {
+    "carport" : "C2022",
+    "poiId" : 2871882,
+    "occupied" : 0
+  }, {
+    "carport" : "C2021",
+    "poiId" : 2871883,
+    "occupied" : 1
+  }, {
+    "carport" : "C2013",
+    "poiId" : 2871884,
+    "occupied" : 0
+  }, {
+    "carport" : "C2015",
+    "poiId" : 2871885,
+    "occupied" : 1
+  }, {
+    "carport" : "C2016",
+    "poiId" : 2871886,
+    "occupied" : 1
+  }, {
+    "carport" : "C2014",
+    "poiId" : 2871887,
+    "occupied" : 0
+  }, {
+    "carport" : "C2019",
+    "poiId" : 2871888,
+    "occupied" : 0
+  }, {
+    "carport" : "C2017",
+    "poiId" : 2871889,
+    "occupied" : 0
+  }, {
+    "carport" : "C2018",
+    "poiId" : 2871890,
+    "occupied" : 0
+  }, {
+    "carport" : "C2020",
+    "poiId" : 2871891,
+    "occupied" : 0
+  }, {
+    "carport" : "C2053",
+    "poiId" : 2871892,
+    "occupied" : 0
+  }, {
+    "carport" : "C2054",
+    "poiId" : 2871893,
+    "occupied" : 1
+  }, {
+    "carport" : "C2052",
+    "poiId" : 2871894,
+    "occupied" : 0
+  }, {
+    "carport" : "C2051",
+    "poiId" : 2871895,
+    "occupied" : 0
+  }, {
+    "carport" : "C2057",
+    "poiId" : 2871896,
+    "occupied" : 0
+  }, {
+    "carport" : "C2056",
+    "poiId" : 2871897,
+    "occupied" : 0
+  }, {
+    "carport" : "C2058",
+    "poiId" : 2871898,
+    "occupied" : 0
+  }, {
+    "carport" : "C2055",
+    "poiId" : 2871899,
+    "occupied" : 0
+  }, {
+    "carport" : "C2059",
+    "poiId" : 2871900,
+    "occupied" : 0
+  }, {
+    "carport" : "B2050",
+    "poiId" : 2871901,
+    "occupied" : 0
+  }, {
+    "carport" : "B2049",
+    "poiId" : 2871902,
+    "occupied" : 0
+  }, {
+    "carport" : "B2051",
+    "poiId" : 2871903,
+    "occupied" : 0
+  }, {
+    "carport" : "B2048",
+    "poiId" : 2871904,
+    "occupied" : 0
+  }, {
+    "carport" : "B2052",
+    "poiId" : 2871905,
+    "occupied" : 0
+  }, {
+    "carport" : "B2053",
+    "poiId" : 2871906,
+    "occupied" : 0
+  }, {
+    "carport" : "B2054",
+    "poiId" : 2871907,
+    "occupied" : 1
+  }, {
+    "carport" : "C2027",
+    "poiId" : 2871908,
+    "occupied" : 0
+  }, {
+    "carport" : "C2028",
+    "poiId" : 2871909,
+    "occupied" : 0
+  }, {
+    "carport" : "C2029",
+    "poiId" : 2871910,
+    "occupied" : 1
+  }, {
+    "carport" : "C2030",
+    "poiId" : 2871911,
+    "occupied" : 1
+  }, {
+    "carport" : "C2050",
+    "poiId" : 2871912,
+    "occupied" : 0
+  }, {
+    "carport" : "C2048",
+    "poiId" : 2871913,
+    "occupied" : 0
+  }, {
+    "carport" : "C2047",
+    "poiId" : 2871914,
+    "occupied" : 0
+  }, {
+    "carport" : "C2049",
+    "poiId" : 2871915,
+    "occupied" : 0
+  }, {
+    "carport" : "C2066",
+    "poiId" : 2871916,
+    "occupied" : 0
+  }, {
+    "carport" : "C2064",
+    "poiId" : 2871917,
+    "occupied" : 0
+  }, {
+    "carport" : "C2065",
+    "poiId" : 2871918,
+    "occupied" : 0
+  }, {
+    "carport" : "C2063",
+    "poiId" : 2871919,
+    "occupied" : 0
+  }, {
+    "carport" : "C2062",
+    "poiId" : 2871920,
+    "occupied" : 0
+  }, {
+    "carport" : "C2079",
+    "poiId" : 2871921,
+    "occupied" : 0
+  }, {
+    "carport" : "C2085",
+    "poiId" : 2871922,
+    "occupied" : 0
+  }, {
+    "carport" : "C2081",
+    "poiId" : 2871923,
+    "occupied" : 0
+  }, {
+    "carport" : "C2083",
+    "poiId" : 2871924,
+    "occupied" : 1
+  }, {
+    "carport" : "C2090",
+    "poiId" : 2871929,
+    "occupied" : 0
+  }, {
+    "carport" : "C2089",
+    "poiId" : 2871930,
+    "occupied" : 0
+  }, {
+    "carport" : "C2088",
+    "poiId" : 2871931,
+    "occupied" : 0
+  }, {
+    "carport" : "C2087",
+    "poiId" : 2871932,
+    "occupied" : 1
+  }, {
+    "carport" : "C2004",
+    "poiId" : 2871933,
+    "occupied" : 0
+  }, {
+    "carport" : "C2001",
+    "poiId" : 2871934,
+    "occupied" : 0
+  }, {
+    "carport" : "C2002",
+    "poiId" : 2871935,
+    "occupied" : 0
+  }, {
+    "carport" : "C2003",
+    "poiId" : 2871936,
+    "occupied" : 0
+  }, {
+    "carport" : "D2012",
+    "poiId" : 2871937,
+    "occupied" : 0
+  }, {
+    "carport" : "D2011",
+    "poiId" : 2871938,
+    "occupied" : 0
+  }, {
+    "carport" : "D2013",
+    "poiId" : 2871939,
+    "occupied" : 0
+  }, {
+    "carport" : "D2010",
+    "poiId" : 2871940,
+    "occupied" : 0
+  }, {
+    "carport" : "D2006",
+    "poiId" : 2871941,
+    "occupied" : 0
+  }, {
+    "carport" : "D2007",
+    "poiId" : 2871942,
+    "occupied" : 0
+  }, {
+    "carport" : "D2009",
+    "poiId" : 2871943,
+    "occupied" : 0
+  }, {
+    "carport" : "D2008",
+    "poiId" : 2871944,
+    "occupied" : 0
+  }, {
+    "carport" : "D2005",
+    "poiId" : 2871945,
+    "occupied" : 0
+  }, {
+    "carport" : "D2004",
+    "poiId" : 2871946,
+    "occupied" : 0
+  }, {
+    "carport" : "D2003",
+    "poiId" : 2871947,
+    "occupied" : 0
+  }, {
+    "carport" : "D2002",
+    "poiId" : 2871948,
+    "occupied" : 0
+  }, {
+    "carport" : "D2030",
+    "poiId" : 2871949,
+    "occupied" : 0
+  }, {
+    "carport" : "D2028",
+    "poiId" : 2871950,
+    "occupied" : 0
+  }, {
+    "carport" : "C2117",
+    "poiId" : 2871951,
+    "occupied" : 0
+  }, {
+    "carport" : "C2119",
+    "poiId" : 2871952,
+    "occupied" : 0
+  }, {
+    "carport" : "C2118",
+    "poiId" : 2871953,
+    "occupied" : 0
+  }, {
+    "carport" : "C2120",
+    "poiId" : 2871954,
+    "occupied" : 0
+  }, {
+    "carport" : "C2115",
+    "poiId" : 2871955,
+    "occupied" : 0
+  }, {
+    "carport" : "C2116",
+    "poiId" : 2871956,
+    "occupied" : 0
+  }, {
+    "carport" : "C2046",
+    "poiId" : 2871957,
+    "occupied" : 0
+  }, {
+    "carport" : "C2041",
+    "poiId" : 2871958,
+    "occupied" : 1
+  }, {
+    "carport" : "C2067",
+    "poiId" : 2871960,
+    "occupied" : 0
+  }, {
+    "carport" : "C2045",
+    "poiId" : 2871961,
+    "occupied" : 0
+  }, {
+    "carport" : "B2019",
+    "poiId" : 2871962,
+    "occupied" : 1
+  }, {
+    "carport" : "B2018",
+    "poiId" : 2871963,
+    "occupied" : 0
+  }, {
+    "carport" : "B2115",
+    "poiId" : 2871964,
+    "occupied" : 0
+  }, {
+    "carport" : "B2114",
+    "poiId" : 2871965,
+    "occupied" : 0
+  }, {
+    "carport" : "B2112",
+    "poiId" : 2871966,
+    "occupied" : 0
+  }, {
+    "carport" : "B2113",
+    "poiId" : 2871967,
+    "occupied" : 0
+  }, {
+    "carport" : "B2111",
+    "poiId" : 2871968,
+    "occupied" : 0
+  }, {
+    "carport" : "B2110",
+    "poiId" : 2871969,
+    "occupied" : 0
+  }, {
+    "carport" : "B2093",
+    "poiId" : 2871970,
+    "occupied" : 0
+  }, {
+    "carport" : "B2094",
+    "poiId" : 2871971,
+    "occupied" : 0
+  }, {
+    "carport" : "B2092",
+    "poiId" : 2871972,
+    "occupied" : 1
+  }, {
+    "carport" : "B2105",
+    "poiId" : 2871973,
+    "occupied" : 0
+  }, {
+    "carport" : "B2104",
+    "poiId" : 2871974,
+    "occupied" : 0
+  }, {
+    "carport" : "B2106",
+    "poiId" : 2871975,
+    "occupied" : 0
+  }, {
+    "carport" : "A2042",
+    "poiId" : 2871976,
+    "occupied" : 0
+  }, {
+    "carport" : "A2041",
+    "poiId" : 2871977,
+    "occupied" : 0
+  }, {
+    "carport" : "A2040",
+    "poiId" : 2871978,
+    "occupied" : 0
+  }, {
+    "carport" : "B2103",
+    "poiId" : 2871979,
+    "occupied" : 1
+  }, {
+    "carport" : "B2102",
+    "poiId" : 2871980,
+    "occupied" : 0
+  }, {
+    "carport" : "B2101",
+    "poiId" : 2871981,
+    "occupied" : 0
+  }, {
+    "carport" : "B2098",
+    "poiId" : 2871982,
+    "occupied" : 0
+  }, {
+    "carport" : "B2100",
+    "poiId" : 2871983,
+    "occupied" : 0
+  }, {
+    "carport" : "B2097",
+    "poiId" : 2871985,
+    "occupied" : 0
+  }, {
+    "carport" : "B2116",
+    "poiId" : 2871986,
+    "occupied" : 1
+  }, {
+    "carport" : "C2039",
+    "poiId" : 2871988,
+    "occupied" : 0
+  }, {
+    "carport" : "C2040",
+    "poiId" : 2871989,
+    "occupied" : 0
+  }, {
+    "carport" : "B2123",
+    "poiId" : 2871990,
+    "occupied" : 1
+  }, {
+    "carport" : "C2121",
+    "poiId" : 2871991,
+    "occupied" : 0
+  }, {
+    "carport" : "A2006",
+    "poiId" : 2871992,
+    "occupied" : 0
+  }, {
+    "carport" : "A2005",
+    "poiId" : 2871993,
+    "occupied" : 0
+  }, {
+    "carport" : "A2057",
+    "poiId" : 2871994,
+    "occupied" : 0
+  }, {
+    "carport" : "A2070",
+    "poiId" : 2871995,
+    "occupied" : 0
+  }, {
+    "carport" : "A2063",
+    "poiId" : 2871996,
+    "occupied" : 0
+  }, {
+    "carport" : "D2038",
+    "poiId" : 2871997,
+    "occupied" : 0
+  }, {
+    "carport" : "D2039",
+    "poiId" : 2871998,
+    "occupied" : 0
+  }, {
+    "carport" : "C2060",
+    "poiId" : 2871999,
+    "occupied" : 0
+  }, {
+    "carport" : "C2070",
+    "poiId" : 2872001,
+    "occupied" : 0
+  }, {
+    "carport" : "B2035",
+    "poiId" : 2872004,
+    "occupied" : 0
+  }, {
+    "carport" : "A2046",
+    "poiId" : 2872005,
+    "occupied" : 0
+  }, {
+    "carport" : "A2062",
+    "poiId" : 2872006,
+    "occupied" : 0
+  }, {
+    "carport" : "D2014",
+    "poiId" : 2872007,
+    "occupied" : 0
+  }, {
+    "carport" : "D2015",
+    "poiId" : 2872008,
+    "occupied" : 0
+  }, {
+    "carport" : "D2016",
+    "poiId" : 2872009,
+    "occupied" : 0
+  }, {
+    "carport" : "C2094",
+    "poiId" : 2872010,
+    "occupied" : 0
+  }, {
+    "carport" : "C2008",
+    "poiId" : 2872011,
+    "occupied" : 0
+  }, {
+    "carport" : "C2010",
+    "poiId" : 2872012,
+    "occupied" : 0
+  }, {
+    "carport" : "C2009",
+    "poiId" : 2872013,
+    "occupied" : 0
+  }, {
+    "carport" : "B2096",
+    "poiId" : 2872015,
+    "occupied" : 0
+  }, {
+    "carport" : "B2095",
+    "poiId" : 2872016,
+    "occupied" : 0
+  }, {
+    "carport" : "B2107",
+    "poiId" : 2872017,
+    "occupied" : 0
+  }, {
+    "carport" : "B2108",
+    "poiId" : 2872018,
+    "occupied" : 0
+  }, {
+    "carport" : "D2001",
+    "poiId" : 2872019,
+    "occupied" : 0
+  }, {
+    "carport" : "B2076",
+    "poiId" : 2872020,
+    "occupied" : 0
+  }, {
+    "carport" : "B2078",
+    "poiId" : 2872021,
+    "occupied" : 0
+  }, {
+    "carport" : "B2077",
+    "poiId" : 2872022,
+    "occupied" : 0
+  }, {
+    "carport" : "B2122",
+    "poiId" : 2872023,
+    "occupied" : 1
+  }, {
+    "carport" : "B2120",
+    "poiId" : 2872024,
+    "occupied" : 0
+  }, {
+    "carport" : "B2121",
+    "poiId" : 2872025,
+    "occupied" : 0
+  }, {
+    "carport" : "B2109",
+    "poiId" : 2872074,
+    "occupied" : 0
+  } ]
+}

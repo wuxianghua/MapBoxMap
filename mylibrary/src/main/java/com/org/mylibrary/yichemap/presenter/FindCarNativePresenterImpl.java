@@ -21,6 +21,7 @@ import com.org.mylibrary.yichemap.http.CarServiceFactory;
 import com.org.mylibrary.yichemap.http.GetCarParkingInfoService;
 import com.org.mylibrary.yichemap.mode.CarParkingInfo;
 import com.org.mylibrary.yichemap.mode.CarParkingInfos;
+import com.org.mylibrary.yichemap.mode.LocationInfo;
 import com.org.mylibrary.yichemap.mode.PositionResult;
 import com.org.mylibrary.yichemap.utils.CoordinateUtils;
 import com.org.mylibrary.yichemap.utils.PositionUtil;
@@ -166,6 +167,7 @@ public class FindCarNativePresenterImpl implements FindCarNativePresenter{
         invalidParkingCars = new ArrayList<>();
         invalidCarFeature = new ArrayList<>();
         oldInvalidParkCars = new ArrayList<>();
+        locationInfo = new LocationInfo();
         latLng = new LatLng();
     }
 
@@ -182,6 +184,9 @@ public class FindCarNativePresenterImpl implements FindCarNativePresenter{
             }else if (carParkingInfo.occupied == -1) {
                 invalidParkingCars.add(carParkingInfo.poiId);
             }
+        }
+        if (noParkingCars.size() == oldNoParkingCars.size()&&oldInvalidParkCars.size() == invalidParkingCars.size()) {
+            return;
         }
         if (noParkingCars.size() != 0) {
             oldNoParkingCars.clear();
@@ -352,7 +357,9 @@ public class FindCarNativePresenterImpl implements FindCarNativePresenter{
     }
 
 
-
+    double x;
+    double y;
+    private LocationInfo locationInfo;
     @Override
     public void getLocation() {
         pos.setOnUpdateLocationData(new PositionUtil.OnUpdateLocationData() {
@@ -362,11 +369,15 @@ public class FindCarNativePresenterImpl implements FindCarNativePresenter{
                     ThreadManager.getNormalPool().execute(new Runnable() {
                         @Override
                         public void run() {
-                            double x = 12733862.574500002;
-                            double y = 3567636.6125999987;
+                            x = positionResult.x;
+                            y = positionResult.y;
+                            locationInfo.x = positionResult.x;
+                            locationInfo.y = positionResult.y;
                             double[] doubles = CoordinateUtils.mercator2Lonlat(x, y);
                             latLng.setLatitude(doubles[1]);
                             latLng.setLongitude(doubles[0]);
+                            locationInfo.logtitude = latLng.getLongitude();
+                            locationInfo.latitude = latLng.getLatitude();
                             if (isStartNavi == true) {
                                 double distance = testCalcDistance(latLng);
                                 if (distance < nearLength) {
@@ -374,10 +385,10 @@ public class FindCarNativePresenterImpl implements FindCarNativePresenter{
                                 } else if (distance > 15){
                                     mFindCarNativeView.rePlanRoute(x,y);
                                 }
-                                mFindCarNativeView.showLocationIcon(latLng.getLatitude(),latLng.getLongitude(),x,y);
+                                mFindCarNativeView.showLocationIcon(locationInfo);
                                 startNaviEngine(latLng.getLatitude(),latLng.getLongitude());
                             }else {
-                                mFindCarNativeView.showLocationIcon(latLng.getLatitude(),latLng.getLongitude(),x,y);
+                                mFindCarNativeView.showLocationIcon(locationInfo);
                             }
                             mFindCarNativeView.setLocationSuccess(true);
                         }

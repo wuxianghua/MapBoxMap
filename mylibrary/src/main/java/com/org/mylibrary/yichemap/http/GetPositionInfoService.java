@@ -13,7 +13,7 @@ import retrofit2.http.POST;
  */
 
 public interface GetPositionInfoService {
-    String BASE_URL = "http://rtls1.palmap.cn:40000";
+    String BASE_URL = "http://rtls1.palmap.cn:40220";
     @Headers({"Content-type:application/json;charset=UTF-8"})
     @POST(".")
     Call<PositionResult> uploadAllBeaconsInfo(@Body RequestBody route);

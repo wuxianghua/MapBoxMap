@@ -35,7 +35,7 @@ import retrofit2.Response;
 
 public class PositionUtil implements BeaconConsumer, RangeNotifier {
     private final String UUID_NUM = "FDA50693-A4E2-4FB1-AFCF-C6EB07647825";
-    private final int MAJOR_NUM = 10169;
+    private final int MAJOR_NUM = 10173;
     private BeaconManager beaconManager;
     private Handler handler;
     private Context mContext;
