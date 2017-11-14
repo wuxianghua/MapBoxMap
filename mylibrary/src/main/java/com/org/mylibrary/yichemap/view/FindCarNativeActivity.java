@@ -513,10 +513,10 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
         });
     }
 
+    Bundle bundle;
     @Override
     public void showLocationIcon(double var1, double var2, double var3, double var4) {
-        Log.e("xinhua","var1"+var1+"var2"+var2+"var3"+var3+"var4"+var4);
-        if (isCanShowLocationIcon) {
+        if (true) {
             mLocation.setX(var3);
             mLocation.setY(var4);
             mLocationLatLng.setLatitude(var1);
@@ -534,12 +534,6 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
             }
         }
     }
-
-    Bundle bundle;
-    /*@Override
-    public void showLocationIcon(final double var1, final double var2, double var3, double var4) {
-
-    }*/
 
     @Override
     public void updateMapCamera(final CameraPosition position) {

@@ -83,6 +83,8 @@ public class FindCarNativePresenterImpl implements FindCarNativePresenter{
     private List<Integer> oldInvalidParkCars;
     //上次网络请求没有停车的车位
     private List<Integer> oldNoParkingCars;
+    //上次网络请求没有停车的车位
+    private List<Integer> oldParkingCars;
     //没有停车位的FeatureCollection
     private FeatureCollection noCarFeatureCollection;
     //无效停车位的FeatureCollection
@@ -160,6 +162,7 @@ public class FindCarNativePresenterImpl implements FindCarNativePresenter{
         carFeature = new ArrayList<>();
         noCarFeatures = new ArrayList<>();
         oldNoParkingCars = new ArrayList<>();
+        oldParkingCars = new ArrayList<>();
         invalidParkingCars = new ArrayList<>();
         invalidCarFeature = new ArrayList<>();
         oldInvalidParkCars = new ArrayList<>();
@@ -180,12 +183,13 @@ public class FindCarNativePresenterImpl implements FindCarNativePresenter{
                 invalidParkingCars.add(carParkingInfo.poiId);
             }
         }
-        if (noParkingCars.size() == oldNoParkingCars.size()&&oldInvalidParkCars.size() == invalidParkingCars.size()) {
-            return;
-        }
         if (noParkingCars.size() != 0) {
             oldNoParkingCars.clear();
             oldNoParkingCars.addAll(noParkingCars);
+        }
+        if (parkingCars.size() != 0) {
+            oldParkingCars.clear();
+            oldParkingCars.addAll(parkingCars);
         }
         if (invalidParkingCars.size() != 0) {
             oldInvalidParkCars.clear();
@@ -194,7 +198,6 @@ public class FindCarNativePresenterImpl implements FindCarNativePresenter{
         if (mParkData == null || mParkData.getDataMap() == null ||mParkData.getDataMap().get("Area")==null) return;
         for (Feature feature : mParkData.getDataMap().get("Area").getFeatures()) {
             int featureId = Integer.parseInt(feature.getProperty("id").toString());
-            if (featureId == 1284122||featureId ==1261981||featureId ==2037840||featureId ==2037841||featureId ==2037842) continue;
             if (parkingCars.contains(featureId)) {
                 carFeature.add(feature);
             }else if (noParkingCars.contains(featureId)){
@@ -359,8 +362,8 @@ public class FindCarNativePresenterImpl implements FindCarNativePresenter{
                     ThreadManager.getNormalPool().execute(new Runnable() {
                         @Override
                         public void run() {
-                            double x = positionResult.x;
-                            double y = positionResult.y;
+                            double x = 12733862.574500002;
+                            double y = 3567636.6125999987;
                             double[] doubles = CoordinateUtils.mercator2Lonlat(x, y);
                             latLng.setLatitude(doubles[1]);
                             latLng.setLongitude(doubles[0]);

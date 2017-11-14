@@ -22,12 +22,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
-    /*repositories {
+    repositories {
         flatDir {
             dirs 'libs'
         }
-    }*/
+    }
 }
 
 dependencies {
@@ -35,14 +34,23 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    //compile(name:'mapboxlibrary-release', ext:'aar')
-    //compile(name:'lib-astar-release', ext:'aar')
+    compile(name:'mapboxlibrary-release', ext:'aar')
+    compile(name:'lib-astar-release', ext:'aar')
     compile 'com.android.support:appcompat-v7:26.+'
     testCompile 'junit:junit:4.12'
-    compile project(':mapboxlibrary')
+    //compile project(':mapboxlibrary')
     compile files('libs/nagrand-jar-with-dependencies.jar')
-    compile project(':lib-astar')
+    //compile project(':lib-astar')
     compile 'io.reactivex.rxjava2:rxjava:2.1.5'
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
     compile 'org.altbeacon:android-beacon-library:2.9.2'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+
+    compile('com.mapbox.mapboxsdk:mapbox-android-sdk:5.1.0@aar') {
+        transitive = true
+        exclude 'group': 'com.android.support'
+        exclude 'group': 'okhttp3'
+    }
+    compile 'com.mapbox.mapboxsdk:mapbox-android-navigation:0.3.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
 }

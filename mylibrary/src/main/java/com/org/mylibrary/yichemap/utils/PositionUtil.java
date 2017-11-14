@@ -126,7 +126,7 @@ public class PositionUtil implements BeaconConsumer, RangeNotifier {
     private List<BeaconInfo> tempBeacons;
     @Override
     public void didRangeBeaconsInRegion(final Collection<Beacon> collection, Region region) {
-        ThreadManager.getNormalPool().execute(new Runnable() {
+        ThreadManager.getDownloadPool().execute(new Runnable() {
             @Override
             public void run() {
                 beacons.clear();

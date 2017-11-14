@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 public class ThreadManager {
     // 定义两个池子，mNormalPool 访问网络用的，mDownloadPool 是下载用的
     private static ThreadPoolProxy mNormalPool   = new ThreadPoolProxy(1, 3, 5 * 1000);//param 0  最大线程数，param 1 核心线程数
-    private static ThreadPoolProxy mDownloadPool = new ThreadPoolProxy(3, 3, 5 * 1000);
+    private static ThreadPoolProxy mDownloadPool = new ThreadPoolProxy(1, 1, 5 * 1000);
     // proxy 是代理的意思
     // 定义两个get方法，获得两个池子的对象 ，直接get 获得到的是代理对象
     public static ThreadPoolProxy getNormalPool() {

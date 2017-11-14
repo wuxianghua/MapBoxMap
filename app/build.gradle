@@ -3,6 +3,9 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     buildToolsVersion "26.0.1"
+    packagingOptions {
+        exclude 'META-INF/mapboxlibrary_release.kotlin_module'
+    }
     defaultConfig {
         applicationId "com.org.mapboxmap"
         minSdkVersion 16
@@ -17,11 +20,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    /*repositories {
+    repositories {
         flatDir {
-            dirs 'libs'
+            dirs '../mylibrary/libs'
         }
-    }*/
+    }
 }
 
 dependencies {
@@ -33,6 +36,6 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
     //compile(name:'mapboxlibrary-release', ext:'aar')
-    compile project(path: ':mapboxlibrary')
+    //compile project(path: ':mapboxlibrary')
     compile project(path: ':mylibrary')
 }
