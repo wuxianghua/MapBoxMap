@@ -1,27 +1,34 @@
 package com.org.mylibrary.indoor.navigate.impl;
 
 import android.content.Context;
+import android.os.Build;
 import android.os.Handler;
 import android.os.HandlerThread;
+import android.support.annotation.RequiresApi;
 import android.util.Log;
 
-import com.mapbox.mapboxsdk.geometry.LatLng;
+import com.google.gson.Gson;
 import com.mapbox.services.commons.geojson.Feature;
 import com.mapbox.services.commons.geojson.FeatureCollection;
 import com.mapbox.services.commons.geojson.LineString;
 import com.mapbox.services.commons.models.Position;
 import com.org.mylibrary.indoor.navigate.INavigateManager;
-import com.palmap.astar.navi.AStar;
-import com.palmap.astar.navi.AStarPath;
-import com.palmap.astar.navi.AStarVertex;
-import com.palmap.astar.navi.DefaultG;
-import com.palmap.astar.navi.DefaultH;
-import com.palmap.astar.navi.PathService;
-import com.palmap.astar.navi.VertexLoader;
+import com.org.nagradcore.model.PoiInfo;
+import com.org.nagradcore.model.path.TreatedRoadNet;
+import com.org.nagradcore.model.path.Vertex;
+import com.org.nagradcore.navi.AStar;
+import com.org.nagradcore.navi.AStarLanePath;
+import com.org.nagradcore.navi.AStarPath;
+import com.org.nagradcore.navi.AStarVertex;
+import com.org.nagradcore.navi.DefaultG;
+import com.org.nagradcore.navi.DefaultH;
+import com.org.nagradcore.navi.VertexLoader;
 import com.palmap.nagrand.support.util.DataConvertUtils;
 import com.vividsolutions.jts.geom.Coordinate;
+import com.vividsolutions.jts.geom.Geometry;
 import com.vividsolutions.jts.geom.GeometryFactory;
 import com.vividsolutions.jts.geom.Point;
+import com.vividsolutions.jts.operation.distance.IndexedFacetDistance;
 
 import org.json.JSONObject;
 
@@ -46,6 +53,8 @@ public class MapBoxNavigateManager implements INavigateManager<FeatureCollection
 
     private Context context;
 
+    private Gson gson;
+
     private Listener<FeatureCollection> listener = DEFAULT_LISTENER;
 
     private static Listener<FeatureCollection> DEFAULT_LISTENER = new Listener<FeatureCollection>() {
@@ -59,19 +68,16 @@ public class MapBoxNavigateManager implements INavigateManager<FeatureCollection
         this.context = context ;
         handlerThread =  new HandlerThread("mapBoxNavigateManager");
         handlerThread.start();
+        gson = new Gson();
         routeHandler = new Handler(handlerThread.getLooper());
         routeHandler.post(new Runnable() {
             @Override
             public void run() {
                 try {
                     String pathJsonStr = loadFromAsset(MapBoxNavigateManager.this.context, routeDataPath);
-                    JSONObject jsonObject = new JSONObject(pathJsonStr);
-                    PathService pathService = new PathService(
-                            jsonObject.getJSONArray("vertexes"),
-                            jsonObject.getJSONObject("paths"),
-                            jsonObject.getJSONObject("connections")
-                    );
-                    MapBoxNavigateManager.this.aStar = new AStar(new DefaultG(), new DefaultH(), new VertexLoader(pathService));
+                    JSONObject pathObject = new JSONObject(pathJsonStr);
+                    TreatedRoadNet treatedRoadNet = new TreatedRoadNet(pathObject.optLong("mapId"),pathObject.optJSONArray("vertexes"),pathObject.optJSONObject("paths"),pathObject.optJSONObject("connections"));
+                    aStar = new AStar(new DefaultG(), new DefaultH(), new VertexLoader(treatedRoadNet));
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -90,15 +96,17 @@ public class MapBoxNavigateManager implements INavigateManager<FeatureCollection
     }
 
     @Override
-    public void navigation(double fromX, double fromY, long fromPlanargraph, double toX, double toY, long toPlanargraph) {
+    public void navigation(double fromX, double fromY, PoiInfo from,PoiInfo to, long fromPlanargraph, double toX, double toY, long toPlanargraph) {
         if (!precondition()){
             return;
         }
         List<AStarPath> routes =  aStar.astar(
                 geometryFactory.createPoint(new Coordinate(fromX,fromY)),
                 fromPlanargraph,
+                from,
                 geometryFactory.createPoint(new Coordinate(toX,toY)),
-                toPlanargraph
+                toPlanargraph,
+                to,0
         );
         if (routes == null || routes.size() == 0) {
             this.listener.OnNavigateComplete(NavigateState.NAVIGATE_REQUEST_ERROR, null,null);

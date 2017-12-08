@@ -3,7 +3,7 @@ package com.org.mylibrary.indoor;
 import com.mapbox.mapboxsdk.geometry.LatLng;
 import com.mapbox.services.commons.geojson.Feature;
 import com.mapbox.services.commons.geojson.Geometry;
-import com.palmap.astar.navi.geojson.GeoJsonReader;
+import com.org.nagradcore.geojson.GeoJsonReader;
 import com.vividsolutions.jts.geom.Coordinate;
 import com.vividsolutions.jts.io.ParseException;
 
@@ -34,4 +34,12 @@ public class Utils {
         return new LatLng(coordinate.y, coordinate.x);
     }
 
+    public static com.vividsolutions.jts.geom.Geometry getFeatureShape(Feature feature) throws NullPointerException,ParseException {
+        if (feature == null) {
+            throw new NullPointerException("feature is null !!");
+        }
+        Geometry geometry = feature.getGeometry();
+        com.vividsolutions.jts.geom.Geometry result = GEO_JSON_READER.read(geometry.toJson());
+        return result;
+    }
 }

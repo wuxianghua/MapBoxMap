@@ -1,0 +1,38 @@
+apply plugin: 'com.android.library'
+apply plugin:'me.tatarka.retrolambda'
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility 1.7
+        targetCompatibility 1.7
+    }
+}
+
+dependencies {
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    compile 'com.android.support:appcompat-v7:26.+'
+    testCompile 'junit:junit:4.12'
+    compile files('libs/jackson-all-1.9.2.jar')
+    //compile files('libs/guava-23.0.jar')
+    //compile files('libs/euphoria-core-3.5.0.jar')
+    compile files('libs/jts-1.13.jar')
+    compile 'com.google.code.findbugs:jsr305:2.0.1'
+    compile files('libs/json-simple-1.1.jar')
+    compile 'com.google.code.gson:gson:2.8.1'
+    //compile files('libs/euphoria-core-3.5.0.jar')
+}

@@ -1,7 +1,7 @@
 package com.org.mylibrary.indoor.navigate;
-
-import com.palmap.astar.navi.AStar;
-import com.palmap.astar.navi.AStarPath;
+import com.mapbox.services.commons.geojson.Feature;
+import com.org.nagradcore.model.PoiInfo;
+import com.org.nagradcore.navi.AStarPath;
 import com.vividsolutions.jts.geom.Coordinate;
 
 import java.util.List;
@@ -40,14 +40,14 @@ public interface INavigateManager<Route> {
     }
 
     interface Listener<T>{
-        void OnNavigateComplete(NavigateState state,List<AStarPath> routes,T route);
+        void OnNavigateComplete(NavigateState state, List<AStarPath> routes, T route);
     }
 
     void setNavigateListener(Listener<Route> listener);
 
     void switchPlanarGraph(long id);
 
-    void navigation(double fromX, double fromY, long fromPlanargraph, double toX, double toY, long toPlanargraph);
+    void navigation(double fromX, double fromY, PoiInfo from,PoiInfo to, long fromPlanargraph, double toX, double toY, long toPlanargraph);
 
     void navigation(double fromX, double fromY, long fromPlanargraph, double toX, double toY, long toPlanargraph, long currentPlanargraph);
 

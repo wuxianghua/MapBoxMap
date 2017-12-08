@@ -41,8 +41,8 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile project(':mapboxlibrary')
     compile files('libs/nagrand-jar-with-dependencies.jar')
-    compile project(':lib-astar')
     compile 'io.reactivex.rxjava2:rxjava:2.1.5'
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
     //compile 'org.altbeacon:android-beacon-library:2.9.2'
+    compile project(':nagradcore')
 }

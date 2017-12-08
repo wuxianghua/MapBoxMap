@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/lib-astar" />
             <option value="$PROJECT_DIR$/mapboxlibrary" />
             <option value="$PROJECT_DIR$/mylibrary" />
+            <option value="$PROJECT_DIR$/nagradcore" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

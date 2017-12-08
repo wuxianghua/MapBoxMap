@@ -22,6 +22,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.mapbox.mapboxsdk.annotations.IconFactory;
 import com.mapbox.mapboxsdk.annotations.MarkerView;
 import com.mapbox.mapboxsdk.camera.CameraPosition;
@@ -36,21 +37,28 @@ import com.org.mylibrary.indoor.Utils;
 import com.org.mylibrary.indoor.impl.MapBoxMapViewController;
 import com.org.mylibrary.indoor.navigate.INavigateManager;
 import com.org.mylibrary.indoor.navigate.impl.MapBoxNavigateManager;
+import com.org.mylibrary.yichemap.mode.Door;
+import com.org.mylibrary.yichemap.mode.Doors;
 import com.org.mylibrary.yichemap.presenter.FindCarNativePresenter;
 import com.org.mylibrary.yichemap.presenter.FindCarNativePresenterImpl;
 import com.org.mylibrary.yichemap.utils.SharedPreferenceUtil;
 import com.org.mylibrary.yichemap.utils.ThreadManager;
-import com.palmap.astar.navi.AStarPath;
+import com.org.nagradcore.dto.POIDto;
+import com.org.nagradcore.model.PoiInfo;
+import com.org.nagradcore.navi.AStarPath;
 import com.palmap.core.MapEngine;
 import com.palmap.core.data.PlanarGraph;
 import com.palmap.core.overLayer.PulseMarkerViewOptions;
 import com.palmap.nagrand.support.util.DataConvertUtils;
 import com.palmaplus.nagrand.geos.Coordinate;
+import com.vividsolutions.jts.geom.Geometry;
+import com.vividsolutions.jts.geom.Point;
 import com.vividsolutions.jts.io.ParseException;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 
 import static com.palmap.core.util.UtilsKt.loadFromAsset;
 
@@ -141,7 +149,9 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
     //是否已经开始导航
     private boolean isStartNavi;
     public static PlanarGraph parkData;
+    private Doors doors;
     //移动地图
+    private Gson gson;
     private Button moveMapLocation;
     private Bundle mSavedInstanceState;
 
@@ -151,6 +161,7 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_findcar_native);
         mSavedInstanceState = savedInstanceState;
+        gson = new Gson();
         initData();
         initView();
         registerSensor();
@@ -158,6 +169,10 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
 
     private void initData() {
         showDialog();
+        if (doors == null) {
+            String doorIds = loadFromAsset(getApplicationContext(), "doorIds.json");
+            doors = gson.fromJson(doorIds, Doors.class);
+        }
         ThreadManager.getNormalPool().execute(new Runnable() {
             @Override
             public void run() {
@@ -338,9 +353,13 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
                     return;
                 }
                 start = mLocation;
+                PoiInfo fromPoiInfo = getPoiInfo(null);
+                PoiInfo toPoiInfo = getPoiInfo(null);
                 navigateManager.navigation(
                         mLocation.getX(),
                         mLocation.getY(),
+                        fromPoiInfo,
+                        toPoiInfo,
                         iMapViewController.getFloorId(),
                         end.x,
                         end.y,
@@ -360,6 +379,26 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
         }
     }
 
+    private PoiInfo getPoiInfo(Feature feature) {
+        PoiInfo frompoiInfo = new PoiInfo();
+        if (feature != null) {
+            long id = Long.valueOf(feature.getId());
+            for (Door poi : doors.pois) {
+                if (poi.id == id) {
+                    frompoiInfo.doorIds = poi.doorIds;
+                }
+            }
+        }
+        try {
+            Geometry featureShape = Utils.getFeatureShape(feature);
+            frompoiInfo.shape = featureShape;
+            frompoiInfo.planarGraphId = feature.getNumberProperty("planar_graph").longValue();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return frompoiInfo;
+    }
+
     private void showRoute(FeatureCollection route) {
         if (!isStartNavi) {
             routeFeatureCollection = route;
@@ -373,7 +412,8 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
         ((MapBoxMapViewController) iMapViewController).showRoute(route);
     }
     //点击地图
-    Feature feature; //点击处的feature
+    Feature feature;//点击处的feature
+    Feature endFeature;
     int category; //点击处的feature的category
     int poiId;   //点击处的feature的poiId
     private void touchMapView() {
@@ -384,6 +424,7 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
                 if (startMark != null) {
                     ((MapBoxMapViewController) iMapViewController).getMapBox().removeMarker(startMark);
                 }
+                endFeature = iMapViewController.selectFeature(x, y);
                 setStartNormal.setVisibility(View.GONE);
                 setStartSelect.setVisibility(View.VISIBLE);
                 double xy2[] = DataConvertUtils.INSTANCE.latlng2WebMercator(x, y);
@@ -468,9 +509,13 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
         findCarBack.setVisibility(View.GONE);
         findCarEnsure.setVisibility(View.GONE);
         start = mLocation;
+        PoiInfo fromPoiInfo = getPoiInfo(null);
+        PoiInfo toPoiInfo = getPoiInfo(null);
         navigateManager.navigation(
                 start.x,
                 start.y,
+                fromPoiInfo,
+                toPoiInfo,
                 iMapViewController.getFloorId(),
                 end.x,
                 end.y,
@@ -643,9 +688,13 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
     public void setStartPoint(View view) {
         setStartSelect.setVisibility(View.GONE);
         findCarBack.setVisibility(View.GONE);
+        PoiInfo fromPoiInfo = getPoiInfo(feature);
+        PoiInfo toPoiInfo = getPoiInfo(endFeature);
         navigateManager.navigation(
                 start.x,
                 start.y,
+                fromPoiInfo,
+                toPoiInfo,
                 iMapViewController.getFloorId(),
                 end.x,
                 end.y,
@@ -758,9 +807,12 @@ public class FindCarNativeActivity extends BaseActivity implements FindCarNative
                 x = msg.getData().getDouble("x");
                 y = msg.getData().getDouble("y");
                 Toast.makeText(FindCarNativeActivity.this,"已偏离航线，正在为您重新规划路线",Toast.LENGTH_SHORT).show();
+                PoiInfo fromPoiInfo = getPoiInfo(null);
+                PoiInfo toPoiInfo = getPoiInfo(null);
                 navigateManager.navigation(
                         x,
                         y,
+                        fromPoiInfo,toPoiInfo,
                         iMapViewController.getFloorId(),
                         end.x,
                         end.y,

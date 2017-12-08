@@ -5,7 +5,7 @@ import android.content.Context;
 import com.mapbox.mapboxsdk.geometry.LatLng;
 import com.mapbox.services.commons.geojson.FeatureCollection;
 import com.org.mylibrary.yichemap.view.FindCarNativeView;
-import com.palmap.astar.navi.AStarPath;
+import com.org.nagradcore.navi.AStarPath;
 
 import java.util.List;
 
